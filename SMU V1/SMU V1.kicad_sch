@@ -1,0 +1,361 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f58b889-96e6-4877-90a3-5a655db5910b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 193.04 40.64)
+		(size 38.1 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "29d8e893-ab28-4f0b-b4ae-2fd3312ba121")
+		(property "Sheetname" "GPS"
+			(at 193.04 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 193.04 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_1PPS" output
+			(at 193.04 74.93 180)
+			(uuid "c43ea984-e069-46e8-8ca1-b99e08adc2a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_ANTENNA" output
+			(at 231.14 64.77 0)
+			(uuid "a81bc62a-38b3-47e8-8281-be7e84595d07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_MODE_OUTPUT" output
+			(at 193.04 62.23 180)
+			(uuid "a23c241e-4e46-4e4e-97f3-b79d70a2afac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_nRST" input
+			(at 193.04 48.26 180)
+			(uuid "61328370-c622-4b21-be13-ba2976dcc465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_UART" bidirectional
+			(at 193.04 55.88 180)
+			(uuid "0656f126-f20f-44a0-bf3e-05109523663b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_VDD_RF" output
+			(at 231.14 59.69 0)
+			(uuid "b7b6bfb5-36ae-44da-ba6f-ff028c92b760")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_WKUP" input
+			(at 193.04 68.58 180)
+			(uuid "10cb7d67-a270-4feb-8d8f-f0b5348f4a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PP3300_GPS_VBCKUP" input
+			(at 231.14 49.53 0)
+			(uuid "5463d0bf-46d0-4ccf-9fc5-f2291864e276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PP5000_GPS_VSUPP" input
+			(at 231.14 45.72 0)
+			(uuid "a7e36d2e-30c7-4e99-9fd8-0e7912476b6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 89.535)
+		(size 48.26 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f")
+		(property "Sheetname" "IMU"
+			(at 201.93 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 201.93 119.3296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 137.795)
+		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "82104193-e79b-453a-b2db-44ed2a6ec2c1")
+		(property "Sheetname" "Diagnostic"
+			(at 135.89 137.0834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diagnostic.kicad_sch"
+			(at 135.89 166.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 48.26)
+		(size 27.305 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "aa7c806b-d8c1-4e28-abf2-720fa257e015")
+		(property "Sheetname" "Main IO"
+			(at 83.82 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_io.kicad_sch"
+			(at 83.82 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 68.58)
+		(size 34.29 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b9f10619-4e5b-45af-b866-c6815d605ed5")
+		(property "Sheetname" "Power"
+			(at 39.37 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 39.37 86.3096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 44.45)
+		(size 31.75 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "c495073d-8f0f-4c8c-b73c-60f0e4a1d97a")
+		(property "Sheetname" "Microcontroller"
+			(at 134.62 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 134.62 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
