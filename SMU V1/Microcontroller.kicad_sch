@@ -5,4 +5,37 @@
 	(uuid "1d5616f6-76a1-410e-a397-249371423ade")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "IMU_SPI"
+		(shape input)
+		(at 161.29 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6841bcc4-532a-444b-a664-a8cb0f6b8708")
+	)
+	(hierarchical_label "GPS_UART"
+		(shape input)
+		(at 87.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fe33d9a-6f0e-48c1-8263-90fbba6b78ee")
+	)
+	(hierarchical_label "CAN"
+		(shape bidirectional)
+		(at 146.05 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bc37338-d1b2-4bd3-8ede-453add3cc0d2")
+	)
 )

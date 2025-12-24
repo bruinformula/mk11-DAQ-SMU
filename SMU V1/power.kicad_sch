@@ -5,4 +5,346 @@
 	(uuid "f1824229-be58-4a0d-9a66-00507f07bb5d")
 	(paper "A4")
 	(lib_symbols)
+	(text "ok so im thinking i want to make a standard like isolated interface\nso i dont have to think about grounding, and so any like future boards\ncan be daisychained without any thought, also so i can kill power line noise\n\nalso to save board space and save from nuking efficiency, need it to \nbe one module that goes 12-5V and then ideally can take up to 24v\n\nso ima do what guitar power supplies do to get rid of wall noise and make\ngalvanically isolated power\neasiest way is to just buy a dcdc module, but that's kind of expensive\n(like 4$ a module)\nso let's see if i can make one myself...\n"
+		(exclude_from_sim no)
+		(at 48.514 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e51a20d-15c0-4a7c-b9a7-b4b1bb6b861c")
+	)
+	(text "so we need a switcher module, a decent transformer, inductor, decent caps,\nand some way to bring feedback across galvanic boundary for the supply itself\nideally some sorta pgood system... what else"
+		(exclude_from_sim no)
+		(at 147.2605 31.6618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78bf217f-5476-4d96-ad4b-7b7159317c29")
+	)
+	(text "DCDC brick options:\nCRE1S1205SC: only 200mA, no 24V capabiltiy, really bad (8-10% load line regulation), 3$\nNXJ1S1205MC-R7: only 200mA, no 24V capability, 10-12% reg, $3.55\nROE-1205S: 200mA, no 24V, like 15% regulation, $3.6\n1769405241: 400mA, no 24v, 8-15% regulation, $5.64\nMER1S1205SC: 200mA, no 24V, 4.5-5% regulation, $6.11"
+		(exclude_from_sim no)
+		(at 146.812 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6e87fe8-be39-482a-a6dd-775d20f14492")
+	)
+	(text "budget out half an amp @ 5V roughly for the whole board\nso 2.5W max"
+		(exclude_from_sim no)
+		(at 147.32 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1b0c2a1-9e42-423f-b177-e1caf20788a1")
+	)
+	(junction
+		(at 170.18 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc42d998-31c7-47f4-9de1-b24e5a0d2846")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0a7e26-baba-4544-91c2-d0d92a393556")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594506a0-dd36-4d7d-a015-cd826de03a5f")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed79e31-4672-4033-a63f-e46be2db7612")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791a691b-b9d0-4395-87e1-fe8905927eb4")
+	)
+	(wire
+		(pts
+			(xy 64.77 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8559d87a-5ff8-448c-b7c1-11d6229f4a2a")
+	)
+	(wire
+		(pts
+			(xy 208.28 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c711b1-f6a9-4bb4-81d0-ab9d807e4dfc")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c795e454-2731-4b82-b380-2c64ff86a2d8")
+	)
+	(hierarchical_label "PP5000_BUCK_VOUT"
+		(shape input)
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11bd9ea6-5368-4ac3-892f-7ba17a5d6113")
+	)
+	(hierarchical_label "PPVAR_VBATT_RAW"
+		(shape input)
+		(at 64.77 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bbcb2e8-21c9-475a-bef5-ef136af692c0")
+	)
+	(hierarchical_label "PP3300_LDO_VOUT"
+		(shape input)
+		(at 215.9 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52ccc3d9-2e9f-462a-9b2d-2ee709da201c")
+	)
+	(sheet
+		(at 127 73.66)
+		(size 36.83 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "af802241-6422-4666-a084-41c36db8cc4c")
+		(property "Sheetname" "5V Buck"
+			(at 127 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_buck.kicad_sch"
+			(at 127 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PP5000_VOUT" input
+			(at 163.83 81.28 0)
+			(uuid "7f40203b-4103-4521-8350-2cd2232dd582")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PPVAR_VBATT_PROT" input
+			(at 127 81.28 180)
+			(uuid "8327d009-dc64-42d8-89f1-95513d78ff12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 106.68)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e5fde666-5538-4e83-833b-79c3c9c21c9e")
+		(property "Sheetname" "3V3 LDO"
+			(at 176.53 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 176.53 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PP5000_VIN" input
+			(at 176.53 114.3 180)
+			(uuid "156ca6d4-b08f-477c-a832-e3f416e9d5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PP3300_VLDO" input
+			(at 208.28 114.3 0)
+			(uuid "cca01f76-490b-4225-b33d-2d8f68513b52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 73.66)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ffadd9c2-fe2d-4025-92ac-e8757544fe06")
+		(property "Sheetname" "VBATT Protection"
+			(at 76.2 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vbatt_protection.kicad_sch"
+			(at 76.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PPVAR_VBATT_RAW" input
+			(at 76.2 81.28 180)
+			(uuid "e5967869-c52a-4daa-9e70-ef239886860a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PPVAR_VBATT_PROT" input
+			(at 116.84 81.28 0)
+			(uuid "a7f0fd29-ac04-4c14-96b7-0b1d8dfa6148")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
+					(page "12")
+				)
+			)
+		)
+	)
 )

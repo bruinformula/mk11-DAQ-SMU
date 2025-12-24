@@ -640,7 +640,23 @@
     ],
     [
       "209e2896-f8b9-4d4b-88ca-b4b8f94ef018",
+      "GPS LDO"
+    ],
+    [
+      "b3165549-ffd4-4aee-a330-81bb01c2c5f2",
       "GPS Power"
+    ],
+    [
+      "af802241-6422-4666-a084-41c36db8cc4c",
+      "5V Buck"
+    ],
+    [
+      "e5fde666-5538-4e83-833b-79c3c9c21c9e",
+      "3V3 LDO"
+    ],
+    [
+      "ffadd9c2-fe2d-4025-92ac-e8757544fe06",
+      "VBATT Protection"
     ]
   ],
   "text_variables": {}
