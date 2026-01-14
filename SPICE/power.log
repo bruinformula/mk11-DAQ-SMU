@@ -1,0 +1,197 @@
+LTspice 24.0.12 for Windows
+Circuit: * E:\Box\Box\BFR\MK11\09 Low Voltage\DAQ\SMU - Spatial Measurement Unit\SPICE\power.asc
+Start Time: Fri Dec 12 23:38:20 2025
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+solver = Normal
+Maximum thread count: 16
+
+
+
+c1: Increased Cpar to 1e-14
+d_d: Emission coefficient, N=0.0001, too small, limited to 0.1
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(u1:nc)
+Ignoring empty pin current: Ix(u1:nc1)
+.step rload=3
+Changing Tseed to 1e-09
+Changing Tseed to 1e-11
+Changing Tseed to 1e-08
+Changing Tseed to 1e-12
+Changing Tseed to 1e-07
+Changing Tseed to 1e-13
+Changing Tseed to 1e-06
+Changing Tseed to 1e-14
+Changing Tseed to 1e-05
+Changing Tseed to 1e-15
+Changing Tseed to 0.0001
+Changing Tseed to 1e-16
+Heightened Def Con from 0 Changing Tseed to 1e-09
+Changing Tseed to 1e-11
+Changing Tseed to 1e-08
+Changing Tseed to 1e-12
+Changing Tseed to 1e-07
+Changing Tseed to 1e-13
+Changing Tseed to 1e-06
+Changing Tseed to 1e-14
+Changing Tseed to 1e-05
+Changing Tseed to 1e-15
+Changing Tseed to 0.0001
+Changing Tseed to 1e-16
++Changing Tseed to 1e-09
+Changing Tseed to 1e-11
+Changing Tseed to 1e-08
+Changing Tseed to 1e-12
+Changing Tseed to 1e-07
+Changing Tseed to 1e-13
+Changing Tseed to 1e-06
+Changing Tseed to 1e-14
+Changing Tseed to 1e-05
+Changing Tseed to 1e-15
+Changing Tseed to 0.0001
+Changing Tseed to 1e-16
++Changing Tseed to 1e-09
+Changing Tseed to 1e-11
+Changing Tseed to 1e-08
+Changing Tseed to 1e-12
+Changing Tseed to 1e-07
+Changing Tseed to 1e-13
+Changing Tseed to 1e-06
+Changing Tseed to 1e-14
+Changing Tseed to 1e-05
+Changing Tseed to 1e-15
+Changing Tseed to 0.0001
+Changing Tseed to 1e-16
+to 4e-18
+
+
+
+.step rload=9.48683298050514
+
+
+
+.step rload=30
+
+
+
+.step rload=94.8683298050514
+tnom = 27
+temp = 27
+method = modified trap
+.step rload=200
+Total elapsed time: 6094.807 seconds.
+

@@ -5,234 +5,6 @@
 	(uuid "e720c2b1-dd07-4552-905c-dc91bc22cce8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "DAQ_Connector_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DAQ Connector"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer P/N" "2339204-4"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "17-2339204-4CT-ND"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "571-2339204-4"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLC Basic?" "No"
-				(at -2.54 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Alternate 1" "https://www.digikey.ca/en/products/detail/molex/0436500401/268996?utm_source=chatgpt.com"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DAQ_Connector_1_1_1"
-				(rectangle
-					(start -5.08 13.97)
-					(end 5.08 -13.97)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 7.62 11.43 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CANH" passive line)
-					(alternate "CANL" passive line)
-					(alternate "CS" passive line)
-					(alternate "GND" passive line)
-					(alternate "MISO" passive line)
-					(alternate "MOSI" passive line)
-					(alternate "SCK" passive line)
-					(alternate "SCL" passive line)
-					(alternate "SDA" passive line)
-					(alternate "VBATT+" passive line)
-				)
-				(pin passive line
-					(at 7.62 3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CANH" passive line)
-					(alternate "CANL" passive line)
-					(alternate "CS" passive line)
-					(alternate "GND" passive line)
-					(alternate "MISO" passive line)
-					(alternate "MOSI" passive line)
-					(alternate "SCK" passive line)
-					(alternate "SCL" passive line)
-					(alternate "SDA" passive line)
-					(alternate "VBATT+" passive line)
-				)
-				(pin passive line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CANH" passive line)
-					(alternate "CANL" passive line)
-					(alternate "CS" passive line)
-					(alternate "GND" passive line)
-					(alternate "MISO" passive line)
-					(alternate "MOSI" passive line)
-					(alternate "SCK" passive line)
-					(alternate "SCL" passive line)
-					(alternate "SDA" passive line)
-					(alternate "VBATT+" passive line)
-				)
-				(pin passive line
-					(at 7.62 -11.43 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CANH" passive line)
-					(alternate "CANL" passive line)
-					(alternate "CS" passive line)
-					(alternate "GND" passive line)
-					(alternate "MISO" passive line)
-					(alternate "MOSI" passive line)
-					(alternate "SCK" passive line)
-					(alternate "SCL" passive line)
-					(alternate "SDA" passive line)
-					(alternate "VBATT+" passive line)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_capacitors:CL21A226MAQNNNE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -485,7 +257,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -494,7 +266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -503,7 +275,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DAQ Connector"
+			(property "Description" "DAQ Connector Microfit"
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -512,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer P/N" "2339204-4"
+			(property "Manufacturer P/N" "0436500401"
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -521,7 +293,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TE Connectivity"
+			(property "Manufacturer" "Molex"
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -530,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey P/N" "17-2339204-4CT-ND"
+			(property "Digikey P/N" "WM1867-ND"
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -539,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser P/N" "571-2339204-4"
+			(property "Mouser P/N" "538-43650-0401 "
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -557,7 +329,7 @@
 					(hide yes)
 				)
 			)
-			(property "Alternate 1" "https://www.digikey.ca/en/products/detail/molex/0436500401/268996?utm_source=chatgpt.com"
+			(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
 				(at 1.27 21.59 0)
 				(effects
 					(font
@@ -844,24 +616,6 @@
 		(uuid "f0fdbcf1-58e2-490a-97f0-78a4a587887c")
 	)
 	(bus_entry
-		(at 101.6 109.22)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba74174-df7c-48c1-a82d-1f1b5cb952e9")
-	)
-	(bus_entry
-		(at 101.6 114.3)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913f63b1-1fab-4cbd-a628-b605e00d0cb2")
-	)
-	(bus_entry
 		(at 171.45 114.3)
 		(size 2.54 -2.54)
 		(stroke
@@ -871,6 +625,24 @@
 		(uuid "a482a67f-6ac6-42bf-939b-4358a945a44b")
 	)
 	(bus_entry
+		(at 101.6 114.3)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4eef63e-d1ed-413b-a1fd-fad49ce1d55d")
+	)
+	(bus_entry
+		(at 101.6 109.22)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca5ad49-d70c-4b3e-90e0-c48e83adea2f")
+	)
+	(bus_entry
 		(at 171.45 109.22)
 		(size 2.54 2.54)
 		(stroke
@@ -878,16 +650,6 @@
 			(type default)
 		)
 		(uuid "ffc1ca12-86cc-44c4-b6c7-ac92a51cea1c")
-	)
-	(wire
-		(pts
-			(xy 87.63 115.57) (xy 101.6 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0095fcac-f0cd-4d72-a93d-40972e2e49f7")
 	)
 	(wire
 		(pts
@@ -908,6 +670,16 @@
 			(type default)
 		)
 		(uuid "19e5d041-df28-4751-9c1f-57350c99f896")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8b0573-a54e-4eca-b2c8-12686a1fe008")
 	)
 	(wire
 		(pts
@@ -951,16 +723,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 101.6 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3693bb-55ba-408e-a723-ae1d869d2e34")
-	)
-	(wire
-		(pts
 			(xy 111.76 100.33) (xy 111.76 104.14)
 		)
 		(stroke
@@ -991,16 +753,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 107.95) (xy 101.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60b87326-4499-4463-ae8a-c9d0bebd7179")
-	)
-	(wire
-		(pts
 			(xy 171.45 109.22) (xy 171.45 107.95)
 		)
 		(stroke
@@ -1008,6 +760,16 @@
 			(type default)
 		)
 		(uuid "68a9a40e-c2f0-435b-8598-5ad346372d51")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7383439b-aea9-4753-89c6-a376fa5d35c7")
 	)
 	(wire
 		(pts
@@ -1089,15 +851,15 @@
 		)
 		(uuid "a24f4635-7321-4828-977c-6fd5780927e8")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 104.14 111.76) (xy 134.62 111.76)
+			(xy 87.63 107.95) (xy 101.6 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bead8360-5807-431e-8f3a-5878fa09f18b")
+		(uuid "b7821915-2744-4741-a24a-1f2afc22420e")
 	)
 	(wire
 		(pts
@@ -1111,13 +873,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 109.22) (xy 101.6 107.95)
+			(xy 101.6 114.3) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d01f867a-3f8e-42c8-aa6b-3bc518ab6067")
+		(uuid "d0f81aed-b2b9-4f5c-a16c-4fec2b069de4")
 	)
 	(wire
 		(pts
@@ -1139,7 +901,17 @@
 		)
 		(uuid "d9ed2392-68e8-4ace-a4e8-b498a925a0e5")
 	)
-	(label "CANH"
+	(bus
+		(pts
+			(xy 104.14 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a58fdc-6599-4955-a772-0c859b7886ce")
+	)
+	(label "CAN+"
 		(at 157.48 107.95 0)
 		(effects
 			(font
@@ -1149,17 +921,17 @@
 		)
 		(uuid "05ea0914-6aea-4922-b6b3-71fe428007b7")
 	)
-	(label "CANL"
-		(at 87.63 115.57 0)
+	(label "{CAN+, CAN-}"
+		(at 119.38 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a1392b66-562c-49ab-9795-b49f52e5f94c")
+		(uuid "6826cfca-eb62-4032-8dc9-2b2469e1f4b2")
 	)
-	(label "CANL"
+	(label "CAN-"
 		(at 157.48 115.57 0)
 		(effects
 			(font
@@ -1169,17 +941,7 @@
 		)
 		(uuid "b7b9c119-8859-410c-87ce-7c591f3a5829")
 	)
-	(label "CANH"
-		(at 87.63 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d00c63f9-7e89-45ed-a75b-3fb34b627689")
-	)
-	(label "{CANH, CANL}"
+	(label "{CAN+, CAN-}"
 		(at 189.23 111.76 0)
 		(effects
 			(font
@@ -1189,15 +951,25 @@
 		)
 		(uuid "d1d24714-8944-4cfc-a8e6-695dc1ccd3c6")
 	)
-	(label "{CANH, CANL}"
-		(at 119.38 111.76 0)
+	(label "CAN-"
+		(at 87.63 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d9e3fdd9-d7d9-42b8-a3f9-ebd2a039b1ff")
+		(uuid "df207aca-d363-4da4-a4e0-d2edd3d640ac")
+	)
+	(label "CAN+"
+		(at 87.63 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff43dfb0-00d2-46ea-9298-b7c9b30e3ef6")
 	)
 	(hierarchical_label "VBATT+"
 		(shape input)
@@ -1210,17 +982,6 @@
 		)
 		(uuid "0449adc0-91cb-48f4-95a2-79a44f951751")
 	)
-	(hierarchical_label "CAN"
-		(shape bidirectional)
-		(at 134.62 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f0233b6-7bce-4cc2-947f-2f8265d5e277")
-	)
 	(hierarchical_label "VBATT+"
 		(shape input)
 		(at 111.76 88.9 0)
@@ -1231,6 +992,17 @@
 			(justify left)
 		)
 		(uuid "434e8279-6548-4b75-9c67-302df060ba98")
+	)
+	(hierarchical_label "CAN"
+		(shape bidirectional)
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d2baf71-2c4c-41a5-bf2a-bf5f787f9dff")
 	)
 	(hierarchical_label "CAN"
 		(shape bidirectional)
@@ -1944,7 +1716,7 @@
 		(fields_autoplaced yes)
 		(uuid "d18a3873-de67-4d3b-852d-478f9ed7a016")
 		(property "Reference" "J401"
-			(at 80.01 86.36 0)
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,14 +1724,14 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 80.01 88.9 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -1968,7 +1740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -1977,7 +1749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DAQ Connector"
+		(property "Description" "DAQ Connector Microfit"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -1986,7 +1758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "2339204-4"
+		(property "Manufacturer P/N" "0436500401"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -1995,7 +1767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity"
+		(property "Manufacturer" "Molex"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -2004,7 +1776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "17-2339204-4CT-ND"
+		(property "Digikey P/N" "WM1867-ND"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -2013,7 +1785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "571-2339204-4"
+		(property "Mouser P/N" "538-43650-0401 "
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -2031,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate 1" "https://www.digikey.ca/en/products/detail/molex/0436500401/268996?utm_source=chatgpt.com"
+		(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -2049,7 +1821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate 2" ""
+		(property "Alternate 2" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/2339204-4/22237209?s=N4IgTCBcDa4MxwJxgAwBYC0aQF0C%2BQA"
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -2076,13 +1848,40 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic Part" ""
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" ""
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" ""
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b02c57c3-85db-476c-8d33-40d691203f5b")
-			(alternate "CANL")
+			(alternate "CANH")
 		)
 		(pin "3"
 			(uuid "be99479e-7560-44d6-852a-4a165f4fe44a")
-			(alternate "CANH")
+			(alternate "CANL")
 		)
 		(pin "2"
 			(uuid "a4090745-9210-4e1e-a029-a62c99778e6d")
@@ -2288,7 +2087,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DAQ_Connector_1")
 		(lib_id "bfr_connectors:DAQ_Connector")
 		(at 149.86 104.14 0)
 		(unit 1)
@@ -2314,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -2323,7 +2121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2332,7 +2130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DAQ Connector"
+		(property "Description" "DAQ Connector Microfit"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2341,7 +2139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "2339204-4"
+		(property "Manufacturer P/N" "0436500401"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2350,7 +2148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity"
+		(property "Manufacturer" "Molex"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2359,7 +2157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "17-2339204-4CT-ND"
+		(property "Digikey P/N" "WM1867-ND"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2368,7 +2166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "571-2339204-4"
+		(property "Mouser P/N" "538-43650-0401 "
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2386,7 +2184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate 1" "https://www.digikey.ca/en/products/detail/molex/0436500401/268996?utm_source=chatgpt.com"
+		(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2431,13 +2229,40 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Basic Part" ""
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" ""
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" ""
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b794c27c-5bde-45b9-8a8e-741b78af49d2")
-			(alternate "CANL")
+			(alternate "CANH")
 		)
 		(pin "3"
 			(uuid "7a11b0a7-8603-4437-8094-0ff9dba4e7ed")
-			(alternate "CANH")
+			(alternate "CANL")
 		)
 		(pin "2"
 			(uuid "8daeb71c-f293-4e16-b488-ffd429804574")

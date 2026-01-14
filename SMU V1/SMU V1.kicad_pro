@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.4,
+        1.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +218,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -635,10 +651,6 @@
       "IMU"
     ],
     [
-      "82104193-e79b-453a-b2db-44ed2a6ec2c1",
-      "Diagnostic"
-    ],
-    [
       "209e2896-f8b9-4d4b-88ca-b4b8f94ef018",
       "GPS LDO"
     ],
@@ -649,10 +661,6 @@
     [
       "af802241-6422-4666-a084-41c36db8cc4c",
       "5V Buck"
-    ],
-    [
-      "e5fde666-5538-4e83-833b-79c3c9c21c9e",
-      "3V3 LDO"
     ],
     [
       "ffadd9c2-fe2d-4025-92ac-e8757544fe06",

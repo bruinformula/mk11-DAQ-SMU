@@ -5,19 +5,41 @@
 	(uuid "1f58b889-96e6-4877-90a3-5a655db5910b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:+3V3"
-			(power)
+		(symbol "bfr_resistors:RMCF0603ZT0R00"
 			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "0"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -26,15 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,8 +57,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,8 +66,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
+			(property "Sim.Pins" "1=P1 2=P2"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,8 +75,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -70,10 +84,100 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(property "Sim.Name" "RMCF0603ZT0R00"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "0Ω 0603 Resistor"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Qty/Unit" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost/Unit" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "708-RMCF0603ZT0R00"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C21189"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "Yes"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0603ZT0R00_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -2.286 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -85,7 +189,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -97,7 +201,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -108,10 +236,10 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+			(symbol "RMCF0603ZT0R00_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -120,6 +248,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,6 +402,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 124.46 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13abd4f0-1d34-4ff6-b113-d67b6ebbe7c4")
+	)
 	(bus
 		(pts
 			(xy 170.18 95.2077) (xy 167.6386 95.2077)
@@ -268,7 +420,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 38.1) (xy 250.19 45.72)
+			(xy 166.37 74.93) (xy 204.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df550a1-55c9-4d0d-a32a-06d384c45b0f")
+	)
+	(wire
+		(pts
+			(xy 261.62 38.1) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -285,16 +447,6 @@
 			(type default)
 		)
 		(uuid "3d432a0c-56ae-4eee-b31c-6d86ae2bbcbe")
-	)
-	(wire
-		(pts
-			(xy 242.57 49.53) (xy 255.27 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572d7133-e92a-452f-8b0d-3a6c3357c5b1")
 	)
 	(wire
 		(pts
@@ -318,7 +470,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 71.12 50.8)
+			(xy 71.12 58.42) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -328,13 +480,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 124.46 43.18)
+			(xy 166.37 62.23) (xy 204.47 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74d3ce8d-77f0-4767-a52d-42d958346805")
+		(uuid "6a13d035-b566-4c00-84c1-2387ae7e6061")
 	)
 	(bus
 		(pts
@@ -366,7 +518,7 @@
 		)
 		(uuid "883d1d96-bfe7-4cbb-8b72-0959e4ddebda")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 63.5 63.5) (xy 134.62 63.5)
 		)
@@ -374,17 +526,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "935ab220-1516-415a-9679-6ce0867f03c2")
+		(uuid "93d2516c-41dd-469b-b60d-0c0832758b85")
 	)
 	(wire
 		(pts
-			(xy 250.19 45.72) (xy 242.57 45.72)
+			(xy 166.37 68.58) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3bed6f5-d9a4-445a-8df9-040367df92d3")
+		(uuid "9aa2e25f-f284-4fc9-92ac-8997d2f0bc3a")
+	)
+	(wire
+		(pts
+			(xy 255.27 45.72) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cbb2f9-a4d8-4dcb-a369-eefd8cb417a5")
 	)
 	(bus
 		(pts
@@ -398,7 +560,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 71.12 50.8)
+			(xy 78.74 53.34) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -408,17 +570,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 119.38 43.18)
+			(xy 189.23 68.58) (xy 204.47 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc501cb6-f94c-4f43-a065-7524fce7c3d0")
+		(uuid "c90efff7-60bb-48e0-b7b0-cd3eccbe2513")
 	)
 	(wire
 		(pts
-			(xy 129.54 39.37) (xy 129.54 46.99)
+			(xy 124.46 41.91) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -428,17 +590,27 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 40.64) (xy 255.27 49.53)
+			(xy 242.57 45.72) (xy 247.65 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f62c34d1-9482-4c73-ae5b-aac64036ae99")
+		(uuid "e436fce4-cc3f-4c11-8a02-e40480fdf4f4")
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 119.38 46.99)
+			(xy 124.46 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f074184a-396f-4d2f-97e6-daee10fcc626")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -456,6 +628,16 @@
 		)
 		(uuid "26cdf3ea-950b-4987-be7f-4e94495b5d20")
 	)
+	(label "{CAN+, CAN-}"
+		(at 113.03 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f330d68-d320-40c4-8321-3405c0565b1e")
+	)
 	(label "IMU_SPI{SCK, CS, MISO, MOSI}"
 		(at 170.18 95.25 0)
 		(effects
@@ -467,18 +649,32 @@
 		(uuid "f8040489-780f-45ea-9174-cb9ba4b3dac1")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 255.27 40.64 0)
-		(mirror y)
+		(lib_id "bfr_resistors:RMCF0603ZT0R00")
+		(at 185.42 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20b277c2-d56b-493a-8b0f-d6b0c29d2e1b")
-		(property "Reference" "#PWR0105"
-			(at 255.27 44.45 0)
+		(uuid "5a0808bf-0f51-468f-b3c5-6d0322741a68")
+		(property "Reference" "R101"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,16 +682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 40.64 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,8 +691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 255.27 40.64 0)
+		(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,40 +700,165 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 255.27 40.64 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603ZT0R00"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "0Ω 0603 Resistor"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603ZT0R00"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63719b86-2e71-4f68-8a04-ca1e4fcace6e")
 		)
 		(pin "1"
-			(uuid "bcf674e4-4e37-4009-96f8-0e34141d9506")
+			(uuid "0bfd152e-0f2d-4e06-a165-0d20daf9ad6f")
 		)
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
-					(reference "#PWR0105")
+					(reference "R101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 124.46 34.29 0)
-		(mirror y)
+		(lib_id "bfr_resistors:RMCF0603ZT0R00")
+		(at 251.46 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ee88953-178f-417d-9ead-be9b3516b2c5")
-		(property "Reference" "#PWR0101"
-			(at 124.46 38.1 0)
+		(uuid "6b15f599-df43-4112-80c0-0bb430837adb")
+		(property "Reference" "R102"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,16 +866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 124.46 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 34.29 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 251.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,8 +875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 124.46 34.29 0)
+		(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,22 +884,133 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 34.29 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 251.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603ZT0R00"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "0Ω 0603 Resistor"
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 251.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 251.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603ZT0R00"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "559a3ba9-d675-4fd0-bb92-f49cee5575bf")
 		)
 		(pin "1"
-			(uuid "0ca6111a-6862-43b4-9217-a2bf3d03aef3")
+			(uuid "e0ed7bb8-3b57-4291-9702-a272a56decee")
 		)
 		(instances
-			(project ""
+			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
-					(reference "#PWR0101")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -669,7 +1085,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 129.54 39.37 0)
+		(at 124.46 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -679,7 +1095,7 @@
 		(fields_autoplaced yes)
 		(uuid "870b7a14-8091-4805-aba3-8ca3aea3f323")
 		(property "Reference" "#PWR0102"
-			(at 129.54 43.18 0)
+			(at 124.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +1104,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 34.29 0)
+			(at 124.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +1112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 39.37 0)
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +1121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 39.37 0)
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +1130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 39.37 0)
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +1152,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 250.19 38.1 0)
+		(at 261.62 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -746,7 +1162,7 @@
 		(fields_autoplaced yes)
 		(uuid "d00ad677-9910-404f-a280-471bbc75e8ef")
 		(property "Reference" "#PWR0103"
-			(at 250.19 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,7 +1171,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 250.19 33.02 0)
+			(at 261.62 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +1179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 38.1 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +1188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 38.1 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +1197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 250.19 38.1 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +1283,7 @@
 			)
 		)
 		(pin "GPS_nRST" input
-			(at 204.47 49.53 180)
+			(at 204.47 43.18 180)
 			(uuid "61328370-c622-4b21-be13-ba2976dcc465")
 			(effects
 				(font
@@ -917,7 +1333,7 @@
 			)
 		)
 		(pin "GPS_LDO_EN" output
-			(at 204.47 43.18 180)
+			(at 204.47 49.53 180)
 			(uuid "3aeb9200-70dd-4117-b38c-95375a62fd52")
 			(effects
 				(font
@@ -1018,49 +1434,6 @@
 		)
 	)
 	(sheet
-		(at 90.17 86.995)
-		(size 31.75 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 0 1)
-		)
-		(fill
-			(color 255 255 194 1.0000)
-		)
-		(uuid "82104193-e79b-453a-b2db-44ed2a6ec2c1")
-		(property "Sheetname" "Diagnostic"
-			(at 90.17 86.2834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diagnostic.kicad_sch"
-			(at 90.17 115.5196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SMU V1"
-				(path "/1f58b889-96e6-4877-90a3-5a655db5910b"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 46.99 52.07)
 		(size 16.51 17.78)
 		(exclude_from_sim no)
@@ -1124,7 +1497,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 38.1)
+		(at 78.74 40.64)
 		(size 34.29 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1141,7 +1514,7 @@
 		)
 		(uuid "b9f10619-4e5b-45af-b866-c6815d605ed5")
 		(property "Sheetname" "Power"
-			(at 85.09 37.3884 0)
+			(at 78.74 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1523,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 85.09 58.3696 0)
+			(at 78.74 60.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1532,7 @@
 			)
 		)
 		(pin "PP5000_BUCK_VOUT" input
-			(at 119.38 46.99 0)
+			(at 113.03 49.53 0)
 			(uuid "6fd45a82-489f-458d-b040-b60e556e67fb")
 			(effects
 				(font
@@ -1168,18 +1541,8 @@
 				(justify right)
 			)
 		)
-		(pin "PP3300_LDO_VOUT" input
-			(at 119.38 43.18 0)
-			(uuid "bf8101f8-dd4c-44d2-aed9-c1ba1118a894")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PPVAR_VBATT_RAW" input
-			(at 85.09 50.8 180)
+			(at 78.74 53.34 180)
 			(uuid "e9b42acc-d856-4f33-a77c-69e648ebc276")
 			(effects
 				(font
@@ -1198,7 +1561,7 @@
 	)
 	(sheet
 		(at 134.62 44.45)
-		(size 31.75 71.12)
+		(size 31.75 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1222,7 +1585,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 134.62 116.1546 0)
+			(at 134.62 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1613,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN" bidirectional
+		(pin "MCU_CAN" bidirectional
 			(at 134.62 63.5 180)
 			(uuid "6e8ad971-058c-410c-a420-029b28ec1439")
 			(effects
@@ -1258,6 +1621,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 134.62 49.53 180)
+			(uuid "50a845b2-245b-4cef-afb6-9dda3ce4c225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_1PPS" input
+			(at 166.37 74.93 0)
+			(uuid "09455e14-9008-46e5-a7b2-bebd29a96801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_WKUP" input
+			(at 166.37 68.58 0)
+			(uuid "cecae8a5-660c-4f90-a7ee-9d0034a7ed44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_MODE" input
+			(at 166.37 62.23 0)
+			(uuid "9274af2b-7b31-476d-be59-69c3d4dcde29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

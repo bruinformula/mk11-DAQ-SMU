@@ -1702,7 +1702,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -3719,7 +3719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd8c483-5758-47c4-8929-780d866253d1")
-		(property "Reference" "U1002"
+		(property "Reference" "U902"
 			(at 153.67 76.8349 90)
 			(effects
 				(font
@@ -3737,7 +3737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bfr_inductors:BWVS005050404R7M00"
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -3836,6 +3836,15 @@
 				(hide yes)
 			)
 		)
+		(property "Pretty Name" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "394ec641-52f5-4653-84b6-be17898ec515")
 		)
@@ -3845,7 +3854,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "U1002")
+					(reference "U902")
 					(unit 1)
 				)
 			)
@@ -3861,7 +3870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf2a511-dcc1-405a-a405-b5fcc6a7a74f")
-		(property "Reference" "C1004"
+		(property "Reference" "C904"
 			(at 113.03 74.93 90)
 			(effects
 				(font
@@ -4030,7 +4039,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1004")
+					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -4046,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496d56c3-53bd-4bc3-a4da-1622c917261b")
-		(property "Reference" "#PWR01002"
+		(property "Reference" "#PWR0902"
 			(at 229.87 115.57 0)
 			(effects
 				(font
@@ -4096,7 +4105,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "#PWR01002")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -4112,7 +4121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d949fd9-3b4f-4f56-9566-8d63604bf4ea")
-		(property "Reference" "C1003"
+		(property "Reference" "C903"
 			(at 83.82 59.69 90)
 			(effects
 				(font
@@ -4281,7 +4290,7 @@
 		(instances
 			(project ""
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1003")
+					(reference "C903")
 					(unit 1)
 				)
 			)
@@ -4297,7 +4306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f86a3e-65af-49d5-b981-8228a2910aa5")
-		(property "Reference" "C1009"
+		(property "Reference" "C909"
 			(at 220.98 87.6299 0)
 			(effects
 				(font
@@ -4468,7 +4477,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1009")
+					(reference "C909")
 					(unit 1)
 				)
 			)
@@ -4484,7 +4493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7feee7d5-6c61-49bc-b9ff-c084bcc87006")
-		(property "Reference" "D1001"
+		(property "Reference" "D901"
 			(at 138.43 89.8524 90)
 			(effects
 				(font
@@ -4655,7 +4664,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "D1001")
+					(reference "D901")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98ad4449-1178-4532-8bfe-1e660477f46e")
-		(property "Reference" "R1002"
+		(property "Reference" "R902"
 			(at 232.41 85.0899 90)
 			(effects
 				(font
@@ -4842,7 +4851,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "R1002")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f3f9f3-f427-46aa-9451-05c51d3765f3")
-		(property "Reference" "U1001"
+		(property "Reference" "U901"
 			(at 93.98 74.93 0)
 			(effects
 				(font
@@ -4874,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -5020,6 +5029,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer P/N" ""
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" ""
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" ""
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a65536ee-dee3-4208-bd6e-1fdcc1263770")
 		)
@@ -5050,7 +5095,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "U1001")
+					(reference "U901")
 					(unit 1)
 				)
 			)
@@ -5066,7 +5111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d84fc088-a9dd-4e73-b7b4-73953e8ad326")
-		(property "Reference" "C1006"
+		(property "Reference" "C906"
 			(at 182.88 87.6299 0)
 			(effects
 				(font
@@ -5237,7 +5282,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1006")
+					(reference "C906")
 					(unit 1)
 				)
 			)
@@ -5253,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc3e3627-8f69-4987-b901-d6c4cfc85225")
-		(property "Reference" "C1001"
+		(property "Reference" "C901"
 			(at 54.61 87.6299 0)
 			(effects
 				(font
@@ -5424,7 +5469,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1001")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e96aaca7-d691-4e79-bf37-46f0b4579b2d")
-		(property "Reference" "R1003"
+		(property "Reference" "R903"
 			(at 232.41 99.0599 90)
 			(effects
 				(font
@@ -5611,7 +5656,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "R1003")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -5627,7 +5672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a8a2cb-972f-436e-9537-6170245dd1f9")
-		(property "Reference" "C1002"
+		(property "Reference" "C902"
 			(at 67.31 87.6299 0)
 			(effects
 				(font
@@ -5798,7 +5843,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1002")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -5814,7 +5859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4683ce7-ed98-4765-8238-501fa3b6b844")
-		(property "Reference" "C1007"
+		(property "Reference" "C907"
 			(at 195.58 87.6299 0)
 			(effects
 				(font
@@ -5985,7 +6030,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1007")
+					(reference "C907")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9140f0e-425d-4ec3-bed7-9b9ff1dc16ff")
-		(property "Reference" "C1005"
+		(property "Reference" "C905"
 			(at 170.18 87.6299 0)
 			(effects
 				(font
@@ -6172,7 +6217,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1005")
+					(reference "C905")
 					(unit 1)
 				)
 			)
@@ -6188,7 +6233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3e6552-5b57-4aef-a337-cda7d86cfac1")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR0901"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -6238,7 +6283,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "#PWR01001")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcafd3fc-e620-4ef4-b531-edd4c7abc195")
-		(property "Reference" "R1001"
+		(property "Reference" "R901"
 			(at 107.95 60.96 0)
 			(effects
 				(font
@@ -6423,7 +6468,7 @@
 		(instances
 			(project ""
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "R1001")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -6439,7 +6484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfd0a7c-0be3-433f-97aa-1976869a8468")
-		(property "Reference" "C1008"
+		(property "Reference" "C908"
 			(at 208.28 87.6299 0)
 			(effects
 				(font
@@ -6610,7 +6655,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/af802241-6422-4666-a084-41c36db8cc4c"
-					(reference "C1008")
+					(reference "C908")
 					(unit 1)
 				)
 			)
