@@ -1447,8 +1447,8 @@
 				)
 			)
 		)
-		(property "Value" "Green"
-			(at 200.3425 102.235 90)
+		(property "Value" "GPS Power"
+			(at 203.2 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1985,7 +1985,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "Vbatt PGOOD"
 			(at 176.8475 66.04 0)
 			(effects
 				(font

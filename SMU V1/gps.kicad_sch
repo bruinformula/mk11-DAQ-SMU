@@ -2683,7 +2683,7 @@
 		)
 		(uuid "019cafb0-1674-4d5f-beff-702ab82637f3")
 	)
-	(label "GPS_VDD_RF"
+	(label "GPS_RF_VDD"
 		(at 129.54 133.35 0)
 		(effects
 			(font
@@ -2763,7 +2763,7 @@
 		)
 		(uuid "c3323c24-97cf-4dfb-8ef0-bae3d83f349e")
 	)
-	(label "GPS_ANTENNA"
+	(label "GPS_ANTENNA_RF"
 		(at 129.54 125.73 0)
 		(effects
 			(font
@@ -2806,7 +2806,7 @@
 		)
 		(uuid "28a0d0f2-acd4-4937-8dd3-bb28cd73953f")
 	)
-	(hierarchical_label "GPS_VDD_RF"
+	(hierarchical_label "GPS_RF_VDD"
 		(shape output)
 		(at 156.21 133.35 0)
 		(effects
@@ -2827,17 +2827,6 @@
 			(justify left)
 		)
 		(uuid "51abaa91-a669-4f74-af9c-3d743b282e1d")
-	)
-	(hierarchical_label "GPS_MODE_OUTPUT"
-		(shape output)
-		(at 64.77 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7df1da03-fa6c-4c5a-a825-1619f4610583")
 	)
 	(hierarchical_label "GPS_WKUP"
 		(shape input)
@@ -2861,7 +2850,7 @@
 		)
 		(uuid "c2b7ae77-ab56-46db-8687-529effb6f5db")
 	)
-	(hierarchical_label "GPS_ANTENNA"
+	(hierarchical_label "GPS_ANTENNA_RF"
 		(shape output)
 		(at 156.21 125.73 0)
 		(effects

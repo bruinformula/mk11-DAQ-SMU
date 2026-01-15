@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|58720000|122778331|4c2e6b34-15a9-477b-b517-57ad9198e779|8a89089c-f925-4e7a-b258-f5bf9b06f0a1",
+          ""
+        ],
+        [
+          "clearance|59020000|122253329|aeb6d46d-c66e-4389-8abc-fa1a3bb20fed|4c2e6b34-15a9-477b-b517-57ad9198e779",
+          ""
+        ],
+        [
+          "clearance|59020000|123778329|12b260b1-6beb-4e36-afeb-453c1e55dfc6|66f711bb-c741-4324-8e66-b2bb29d447b8",
+          ""
+        ],
+        [
+          "clearance|59195000|124578331|66f711bb-c741-4324-8e66-b2bb29d447b8|98d75c5f-52fc-4e70-9bad-2f45372ae29b",
+          ""
+        ],
+        [
+          "clearance|59520000|122253329|b4d613be-077f-4863-bb02-74af43678cf7|aeb6d46d-c66e-4389-8abc-fa1a3bb20fed",
+          ""
+        ],
+        [
+          "clearance|59695000|124578330|98d75c5f-52fc-4e70-9bad-2f45372ae29b|79d782df-177f-4417-a1e5-541c2829ea66",
+          ""
+        ],
+        [
+          "clearance|60195000|124578330|79d782df-177f-4417-a1e5-541c2829ea66|8cd8da9b-6f1e-4fee-b800-8b7d228071fd",
+          ""
+        ],
+        [
+          "clearance|60520000|122253329|a7747d55-f0fe-4408-942d-4ee2f4064032|20841b25-259d-45c8-8aea-20cce43df1c5",
+          ""
+        ],
+        [
+          "clearance|60545000|122253329|a7747d55-f0fe-4408-942d-4ee2f4064032|314fa610-30b5-456d-844d-202789c70fcf",
+          ""
+        ],
+        [
+          "clearance|60545000|123103330|bb24fec8-1a5b-4a1f-bfd6-d7cdc4566cc2|314fa610-30b5-456d-844d-202789c70fcf",
+          ""
+        ],
+        [
+          "clearance|60545000|123603329|4dcfbc41-0474-4faf-81d0-1b75c3797fc5|bb24fec8-1a5b-4a1f-bfd6-d7cdc4566cc2",
+          ""
+        ],
+        [
+          "clearance|60695000|124128331|8cd8da9b-6f1e-4fee-b800-8b7d228071fd|4dcfbc41-0474-4faf-81d0-1b75c3797fc5",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -489,6 +538,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.158,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -496,7 +562,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RF",
+        "pattern": "*_RF"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*_RF_R"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,6 +736,10 @@
     [
       "af802241-6422-4666-a084-41c36db8cc4c",
       "5V Buck"
+    ],
+    [
+      "9f4b7fd8-1b41-49c1-882f-9b0abe430a88",
+      "Antenna"
     ],
     [
       "ffadd9c2-fe2d-4025-92ac-e8757544fe06",
