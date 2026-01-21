@@ -642,6 +642,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bfr_utilities:SMD_Test_Point"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SMD Test Point"
+				(at 0.508 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+				(at 0.762 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+				(at 0.762 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Test Point"
+				(at 0.762 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer P/N" "RH-5019"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ronghe"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "36-5019CT-ND"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "534-5019"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C5199800"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic Part" "No"
+				(at 0 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created By" "Manual Entry"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "SMD Test Point"
+				(at 0.762 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD_Test_Point_0_1"
+				(circle
+					(center 0 0.762)
+					(radius 0.7184)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD_Test_Point_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -751,16 +915,40 @@
 		(uuid "217f2d69-896b-487c-8d60-ac00d094931a")
 	)
 	(junction
+		(at 204.47 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f0efc1-a7cd-4a65-9f02-613c2a0c5073")
+	)
+	(junction
 		(at 99.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27875a5f-d213-4311-b0e0-356d35da460c")
 	)
 	(junction
+		(at 109.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29709017-db73-40d1-9bde-5ec59fcd0e97")
+	)
+	(junction
+		(at 109.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38bb8c5d-f291-463a-a34c-9b5ad22426df")
+	)
+	(junction
 		(at 116.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9264e152-4f30-4f38-82f4-e41f42afc4eb")
+	)
+	(junction
+		(at 92.71 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81ce18d-7a8a-415d-8ba1-eb9a45e31abf")
 	)
 	(junction
 		(at 123.19 87.63)
@@ -775,6 +963,18 @@
 		(uuid "ce286d1a-1834-4187-9b61-999dda02ff1b")
 	)
 	(junction
+		(at 180.34 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6436fce-35ec-4f57-89cd-c663a392a909")
+	)
+	(junction
+		(at 167.64 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2656e1-0ced-49a6-843e-f443946f51ec")
+	)
+	(junction
 		(at 154.94 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -786,6 +986,12 @@
 		(color 0 0 0 0)
 		(uuid "f4b3bd0e-75e5-4b13-80be-8162bc2b1ba3")
 	)
+	(junction
+		(at 193.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6fe0a2e-86d2-4022-9999-b241a251351f")
+	)
 	(no_connect
 		(at 151.13 99.06)
 		(uuid "0c639ef0-a12b-4a40-8c95-7dfa893fd0c9")
@@ -795,7 +1001,7 @@
 		(uuid "efc0baf8-a567-489f-bae8-91877fba2d45")
 	)
 	(bus_entry
-		(at 166.37 83.82)
+		(at 217.17 83.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -804,7 +1010,7 @@
 		(uuid "4212b5f7-e55e-46c3-99af-c3675439db34")
 	)
 	(bus_entry
-		(at 166.37 78.74)
+		(at 217.17 78.74)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -813,7 +1019,7 @@
 		(uuid "633f9de6-6ef4-460f-a16b-cb40cf35eba9")
 	)
 	(bus_entry
-		(at 166.37 73.66)
+		(at 217.17 73.66)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -822,13 +1028,23 @@
 		(uuid "7461da4a-182b-408e-86e6-854f2485618c")
 	)
 	(bus_entry
-		(at 166.37 88.9)
+		(at 217.17 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df7e3d2a-cff1-490e-b234-c1f8873a326d")
+	)
+	(wire
+		(pts
+			(xy 204.47 88.9) (xy 217.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0007910b-4a67-4896-a98a-6c927fdc21d3")
 	)
 	(wire
 		(pts
@@ -852,6 +1068,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27528509-d82c-4f8b-9036-af98e3c83038")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 154.94 113.03)
 		)
 		(stroke
@@ -862,7 +1088,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 91.44) (xy 199.39 91.44)
+			(xy 219.71 91.44) (xy 250.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -870,9 +1096,29 @@
 		)
 		(uuid "36ae41dd-723f-4b7e-9097-7ad46cb4823a")
 	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376ac90e-74b5-4fc0-a2c7-a84fe5663eff")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c81c5e0-9d96-4a74-ba5a-71a7193abf80")
+	)
 	(bus
 		(pts
-			(xy 168.91 76.2) (xy 168.91 81.28)
+			(xy 219.71 76.2) (xy 219.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +1138,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 81.28) (xy 168.91 86.36)
+			(xy 219.71 81.28) (xy 219.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -952,6 +1198,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 83.82) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88635b28-5357-4d39-ac7b-4fc06fb6445e")
+	)
+	(wire
+		(pts
 			(xy 90.17 87.63) (xy 99.06 87.63)
 		)
 		(stroke
@@ -962,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 166.37 88.9)
+			(xy 151.13 88.9) (xy 204.47 88.9)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 166.37 78.74)
+			(xy 151.13 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +1268,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 91.44) (xy 168.91 86.36)
+			(xy 219.71 91.44) (xy 219.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1288,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 123.19 107.95)
+			(xy 180.34 78.74) (xy 217.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2ccb8f-8444-412f-b0c5-2d88ddbd12b1")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.82) (xy 166.37 83.82)
+			(xy 151.13 83.82) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 73.66) (xy 166.37 73.66)
+			(xy 151.13 73.66) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1072,13 +1338,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 123.19 99.06)
+			(xy 106.68 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee7b63fa-04a4-440b-b488-8e5e2c6997e2")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0946b3d-0408-4380-9261-3a55da5eab9d")
 	)
 	(wire
 		(pts
@@ -1092,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 99.06 73.66)
+			(xy 87.63 73.66) (xy 92.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1427,7 @@
 		(uuid "b35b56a0-e301-4dd2-902d-5f922af12966")
 	)
 	(label "IMU_SPI{SCK, CS, MISO, MOSI}"
-		(at 170.18 91.44 0)
+		(at 220.98 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1184,7 +1460,7 @@
 	)
 	(hierarchical_label "IMU_SPI"
 		(shape bidirectional)
-		(at 199.39 91.44 0)
+		(at 250.19 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,6 +1479,302 @@
 			(justify right)
 		)
 		(uuid "d0a3f69d-74a6-45d1-b087-ec16a06fe19b")
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fa8f3ac-e951-49c4-ad6c-14d0cbced5d0")
+		(property "Reference" "TP604"
+			(at 170.18 69.1097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_SPI_CS"
+			(at 170.18 71.6497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 168.402 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 168.402 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 168.402 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 167.64 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 168.402 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1678e59-c9d0-4c94-8ce7-4671ab2b978d")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 204.47 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d9efb3-7ac6-45c4-beaf-2ad5f90b9288")
+		(property "Reference" "TP607"
+			(at 207.01 84.3497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_SPI_SCK"
+			(at 207.01 86.8897 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 205.232 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 205.232 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 205.232 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 204.47 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 205.232 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410ef98b-8eed-471a-b7de-c808dd45b390")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP607")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
@@ -1386,6 +1958,154 @@
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
 					(reference "C602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 109.22 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b96833d-c726-4409-9a5f-172f5ae2f4fe")
+		(property "Reference" "TP603"
+			(at 111.76 103.3997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_INT1"
+			(at 111.76 105.9397 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 109.982 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 109.982 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 109.982 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 109.22 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 109.982 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728c3d3b-67c4-4b47-8b18-7f90cc1bd240")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP603")
 					(unit 1)
 				)
 			)
@@ -1579,6 +2299,154 @@
 		)
 	)
 	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 193.04 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7199609b-82fd-4627-8d0f-140fdd22cb69")
+		(property "Reference" "TP606"
+			(at 195.58 79.2697 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_SPI_MOSI"
+			(at 195.58 81.8097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 193.802 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 193.802 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 193.802 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 193.04 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 193.802 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d34ef9-9ce5-476b-995c-c6335d27111d")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 115.57 0)
 		(unit 1)
@@ -1645,6 +2513,154 @@
 		)
 	)
 	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 92.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924e7225-003f-473f-82f1-3bf5d93bc62c")
+		(property "Reference" "TP601"
+			(at 95.25 69.1097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_+3V3"
+			(at 95.25 71.6497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 93.472 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 93.472 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 93.472 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 92.71 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 93.472 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55a3327-9e52-4319-a8b3-fe7061ee21d9")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 90.17 0)
 		(unit 1)
@@ -1705,6 +2721,302 @@
 			(project ""
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 180.34 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b49abc8b-098a-4d09-9619-977aa89f5b0f")
+		(property "Reference" "TP605"
+			(at 182.88 74.1897 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_SPI_MISO"
+			(at 182.88 76.7297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 181.102 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 181.102 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 181.102 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 180.34 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 181.102 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16f7f0a0-c4d0-4918-8936-236d664477fe")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 109.22 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66f773d-e7f4-4e9d-93db-7c4172fbe873")
+		(property "Reference" "TP602"
+			(at 111.76 94.5097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IMU_INT2"
+			(at 111.76 97.0497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 109.982 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 109.982 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 109.982 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 109.22 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 109.982 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eca76c1-8b65-4f45-b66a-0aead3759262")
+		)
+		(instances
+			(project "SMU V1"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f"
+					(reference "TP602")
 					(unit 1)
 				)
 			)

@@ -763,7 +763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9111d2df-acea-440c-b922-99a18e6af09f")
-		(property "Reference" "C1101"
+		(property "Reference" "C1001"
 			(at 113.03 81.2799 0)
 			(effects
 				(font
@@ -934,7 +934,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/e5fde666-5538-4e83-833b-79c3c9c21c9e"
-					(reference "C1101")
+					(reference "C1001")
 					(unit 1)
 				)
 			)
@@ -950,7 +950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97340519-1789-4a8f-8794-d049560f1125")
-		(property "Reference" "U1101"
+		(property "Reference" "U1001"
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -1122,7 +1122,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/e5fde666-5538-4e83-833b-79c3c9c21c9e"
-					(reference "U1101")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -1138,7 +1138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae5b78f-bd58-48be-877f-fe7f1870a584")
-		(property "Reference" "#PWR01101"
+		(property "Reference" "#PWR01001"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -1188,7 +1188,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/e5fde666-5538-4e83-833b-79c3c9c21c9e"
-					(reference "#PWR01101")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -1204,7 +1204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3837692-3834-4642-a71c-74912017960d")
-		(property "Reference" "C1102"
+		(property "Reference" "C1002"
 			(at 144.78 81.2799 0)
 			(effects
 				(font
@@ -1375,7 +1375,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5/e5fde666-5538-4e83-833b-79c3c9c21c9e"
-					(reference "C1102")
+					(reference "C1002")
 					(unit 1)
 				)
 			)
