@@ -31408,7 +31408,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.051)
-			(uuid "61864d55-cbea-4f1a-966b-cca831bcae61")
+			(uuid "a742cd3c-1fcb-42bf-b1e3-90d4905ae6dc")
 		)
 		(pad "SH1" smd rect
 			(at -10.35 -3 180)
