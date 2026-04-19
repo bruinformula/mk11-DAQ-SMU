@@ -237,7 +237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_microcontrollers:Krill"
+		(symbol "bfr_microcontroller_breakouts:Krill"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bfr_connectors:TE_1-2199119-5"
+			(property "Footprint" "bfr_connectors:Krill"
 				(at 0 0 0)
 				(effects
 					(font
@@ -275,7 +275,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller"
 				(at 0 0 0)
 				(effects
 					(font
@@ -284,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Connector Datasheet" "https://jlcpcb.com/partdetail/TEConnectivity-1_21991195/C574849"
+			(property "Connector Datasheet" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -293,7 +293,88 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller"
+			(property "Manufacturer P/N" "2E0BC21-S85BM-7H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Foxconn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "609-MDT850M01501CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "649-MDT850M01501 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C410529"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "No"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created By" "Tony"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mating Connector" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller STM32L552CCT6 Breakout, STLINK V2-1, USBC, CAN and Program CAN, LED debug array"
 				(at 0 0 0)
 				(effects
 					(font
@@ -312,6 +393,30 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "LEDARR_CLK"
+					(at -2.54 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LEDARR_RST"
+					(at -2.54 7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LEDARR_SER"
+					(at -2.54 -27.94 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin bidirectional line
@@ -38947,277 +39052,6 @@
 				)
 			)
 		)
-		(symbol "bfr_resistors:RMCF0603ZT0R00"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "0"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=P1 2=P2"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "RMCF0603ZT0R00"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pretty Name" "0Ω 0603 Resistor"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Qty/Unit" ""
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost/Unit" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order From" "LCSC"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "708-RMCF0603ZT0R00"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C21189"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Basic Part" "Yes"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RMCF0603ZT0R00_0_1"
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RMCF0603ZT0R00_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_utilities:SMD_Test_Point"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -39545,10 +39379,6 @@
 		(uuid "f063ed5d-c6f7-4516-879f-c75d96819925")
 	)
 	(no_connect
-		(at 115.57 135.89)
-		(uuid "0ee7b351-aa12-4d94-86f2-f090428c80bb")
-	)
-	(no_connect
 		(at 151.13 106.68)
 		(uuid "3714c47b-424c-495f-9a5e-b49dbe8a5e38")
 	)
@@ -39557,8 +39387,12 @@
 		(uuid "57aab379-162d-4d2a-9d97-02cebc8e794d")
 	)
 	(no_connect
-		(at 115.57 161.29)
-		(uuid "5c163b73-4a8c-4ea1-92cc-a0b6d6c77e8b")
+		(at 57.15 77.47)
+		(uuid "5ae642de-0d11-428a-88e0-eb1ca2cd92cd")
+	)
+	(no_connect
+		(at 57.15 72.39)
+		(uuid "5d95749e-bb10-47d6-9d82-56200bac59c1")
 	)
 	(no_connect
 		(at 151.13 82.55)
@@ -39573,28 +39407,12 @@
 		(uuid "667142e1-b171-4539-b4bc-837a9786e6ee")
 	)
 	(no_connect
-		(at 57.15 102.87)
-		(uuid "6d26b297-a01f-4752-aae7-98e143097abb")
-	)
-	(no_connect
-		(at 115.57 146.05)
-		(uuid "818c62d1-fc6f-4148-abca-84f9ff357b79")
-	)
-	(no_connect
-		(at 57.15 107.95)
-		(uuid "98433fad-4fd3-48ec-a0ff-2d74856b7a2e")
-	)
-	(no_connect
 		(at 115.57 176.53)
 		(uuid "be1db458-a537-4ed6-a771-a27b34c87c6d")
 	)
 	(no_connect
 		(at 115.57 186.69)
 		(uuid "c0b63e0d-8e4e-4596-a91a-5c074202356f")
-	)
-	(no_connect
-		(at 115.57 156.21)
-		(uuid "c8ae5430-498c-4105-a38e-fd32444d1f97")
 	)
 	(no_connect
 		(at 115.57 181.61)
@@ -39613,19 +39431,11 @@
 		(uuid "de17088d-3d51-4c69-944e-ca5fed5d2fb7")
 	)
 	(no_connect
-		(at 115.57 166.37)
-		(uuid "e28d9450-df97-45cf-8a3f-7c40e05f09cf")
-	)
-	(no_connect
-		(at 115.57 151.13)
-		(uuid "ed7f6c90-89c5-4475-85d1-47273d2de6af")
-	)
-	(no_connect
 		(at 115.57 171.45)
 		(uuid "fed6f55a-30ac-411f-970c-6324930584a8")
 	)
 	(bus_entry
-		(at 115.57 85.09)
+		(at 77.47 85.09)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -39643,7 +39453,7 @@
 		(uuid "3f30121f-1a6b-479f-93e5-d35dc0347310")
 	)
 	(bus_entry
-		(at 115.57 80.01)
+		(at 77.47 80.01)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -39652,7 +39462,7 @@
 		(uuid "6f105ed6-305a-4be4-9f09-049a4ba76a60")
 	)
 	(bus_entry
-		(at 115.57 95.25)
+		(at 77.47 95.25)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -39661,7 +39471,7 @@
 		(uuid "753403c9-1c9a-4399-9593-437bc3ee1546")
 	)
 	(bus_entry
-		(at 115.57 90.17)
+		(at 77.47 90.17)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -39670,7 +39480,7 @@
 		(uuid "a298700e-e2b1-4707-b67c-99ca1ef53bc4")
 	)
 	(bus_entry
-		(at 115.57 74.93)
+		(at 137.16 163.83)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -39679,7 +39489,7 @@
 		(uuid "c5c1f479-2278-4908-ab85-03f0d097d65c")
 	)
 	(bus_entry
-		(at 115.57 74.93)
+		(at 137.16 163.83)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -39708,6 +39518,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1847f8ea-37fd-46df-a30b-b99fbac01732")
+	)
+	(wire
+		(pts
 			(xy 191.77 82.55) (xy 189.23 82.55)
 		)
 		(stroke
@@ -39718,7 +39538,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 92.71) (xy 113.03 92.71)
+			(xy 57.15 92.71) (xy 74.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -39738,7 +39558,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 90.17) (xy 115.57 95.25)
+			(xy 77.47 90.17) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -39748,7 +39568,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 97.79) (xy 113.03 97.79)
+			(xy 137.16 173.99) (xy 162.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a6d486-a908-40e1-8a69-0c8ae5d775eb")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -39768,17 +39598,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 69.85 72.39)
+			(xy 106.68 102.87) (xy 57.15 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "495d2bb6-e83f-4ee1-819f-e8a18172c465")
+		(uuid "485dec61-c98f-4081-8ce2-d2208cc6ca15")
 	)
 	(bus
 		(pts
-			(xy 115.57 74.93) (xy 133.35 74.93)
+			(xy 137.16 163.83) (xy 154.94 163.83)
 		)
 		(stroke
 			(width 0)
@@ -39788,7 +39618,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 113.03 82.55)
+			(xy 57.15 82.55) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -39808,7 +39638,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 80.01) (xy 146.05 80.01)
+			(xy 77.47 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -39818,13 +39648,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 72.39) (xy 113.03 72.39)
+			(xy 140.97 135.89) (xy 115.57 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77487898-77d5-43ce-aa1c-2fa732eb96fe")
+		(uuid "7135c01a-aef4-4939-b859-2e9157f3218a")
+	)
+	(wire
+		(pts
+			(xy 115.57 166.37) (xy 134.62 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e0bc8b-1a4e-4303-ac6a-045c71ae088d")
 	)
 	(wire
 		(pts
@@ -39898,6 +39738,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 140.97) (xy 140.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30e64a3-6173-467f-a5d3-b541ed915e1b")
+	)
+	(wire
+		(pts
 			(xy 204.47 91.44) (xy 204.47 92.71)
 		)
 		(stroke
@@ -39918,6 +39768,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2405e9-34e6-4bda-afc8-23ab7aab1278")
+	)
+	(wire
+		(pts
 			(xy 210.82 92.71) (xy 204.47 92.71)
 		)
 		(stroke
@@ -39925,6 +39785,16 @@
 			(type default)
 		)
 		(uuid "aabedf72-31ae-4584-b25b-8319ea394f38")
+	)
+	(wire
+		(pts
+			(xy 162.56 179.07) (xy 137.16 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a3699-9c47-4198-bac3-18efe4b5089b")
 	)
 	(wire
 		(pts
@@ -39938,7 +39808,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 113.03 87.63)
+			(xy 57.15 87.63) (xy 74.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -39968,7 +39838,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 80.01) (xy 115.57 85.09)
+			(xy 77.47 80.01) (xy 77.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -39985,16 +39855,6 @@
 			(type default)
 		)
 		(uuid "ca770e8d-1802-4b4f-8c8c-f3ff93ecee52")
-	)
-	(wire
-		(pts
-			(xy 115.57 140.97) (xy 140.97 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce073ea1-28c1-4eaf-b1e6-c25493b032c3")
 	)
 	(wire
 		(pts
@@ -40018,16 +39878,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 130.81) (xy 140.97 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d014c2-8f51-4ee8-ae16-90e6b4771b37")
-	)
-	(wire
-		(pts
 			(xy 210.82 91.44) (xy 210.82 92.71)
 		)
 		(stroke
@@ -40038,6 +39888,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 107.95) (xy 57.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8515cca-ae5d-4b71-9dda-338c7b31b4a0")
+	)
+	(wire
+		(pts
 			(xy 210.82 92.71) (xy 223.52 92.71)
 		)
 		(stroke
@@ -40045,16 +39905,6 @@
 			(type default)
 		)
 		(uuid "dea285f1-79c1-456d-8a7c-b843861b8f76")
-	)
-	(wire
-		(pts
-			(xy 57.15 77.47) (xy 63.5 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36ac98c-f213-4f20-b649-67cd61cf8355")
 	)
 	(wire
 		(pts
@@ -40078,7 +39928,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 85.09) (xy 115.57 90.17)
+			(xy 77.47 85.09) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -40088,16 +39938,16 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 77.47) (xy 113.03 77.47)
+			(xy 140.97 130.81) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f12a1100-45fe-4813-b1e2-144db3fd231a")
+		(uuid "f33ced1f-8480-48f1-9ac0-1ba67204bb40")
 	)
 	(label "GPS_UART.RX"
-		(at 97.79 77.47 0)
+		(at 115.57 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40107,7 +39957,7 @@
 		(uuid "02e1ce46-81a7-4224-912e-a75bca3655ad")
 	)
 	(label "IMU_SPI{SCK, CS, MISO, MOSI}"
-		(at 115.57 80.01 0)
+		(at 77.47 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40125,16 +39975,6 @@
 			(justify left bottom)
 		)
 		(uuid "2dea4c3d-77ed-467d-b17b-debaa0d6d42b")
-	)
-	(label "GPS_1PPS"
-		(at 118.11 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ae035be-01b4-488c-827c-c0cbc3ff0830")
 	)
 	(label "CAN-"
 		(at 189.23 106.68 0)
@@ -40156,16 +39996,6 @@
 		)
 		(uuid "5d77c51e-03a2-43e2-bc6b-737fe4ac3e32")
 	)
-	(label "GPS_MODE"
-		(at 118.11 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "670532f0-3644-406e-b1b6-a8420cb938c3")
-	)
 	(label "IMU_SPI.MISO"
 		(at 57.15 92.71 0)
 		(effects
@@ -40177,7 +40007,7 @@
 		(uuid "76c23ac3-fc47-4f9a-8104-f7cf07d3f362")
 	)
 	(label "GPS_UART.TX"
-		(at 97.79 72.39 0)
+		(at 115.57 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40207,7 +40037,7 @@
 		(uuid "91e635d8-19e4-40d9-a6f8-957bdae901e0")
 	)
 	(label "GPS_UART{TX RX}"
-		(at 115.57 74.93 0)
+		(at 137.16 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40237,27 +40067,38 @@
 		)
 		(uuid "5b4fcb95-3699-49cf-a9e3-fcb3fe655635")
 	)
-	(hierarchical_label "GPS_MODE"
+	(hierarchical_label "IMU_INT1"
 		(shape input)
-		(at 140.97 140.97 0)
+		(at 106.68 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6ccc5d50-9145-4a2f-b461-014f1838c42c")
+		(uuid "606d8d07-170a-4697-9129-d475ae0deea1")
 	)
-	(hierarchical_label "GPS_UART"
+	(hierarchical_label "GPS_PGOOD"
 		(shape input)
-		(at 133.35 74.93 0)
+		(at 140.97 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7fe33d9a-6f0e-48c1-8263-90fbba6b78ee")
+		(uuid "676367b8-3689-4653-8cbd-fd39b9f348f6")
+	)
+	(hierarchical_label "IMU_SPI"
+		(shape bidirectional)
+		(at 107.95 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ab30228-54d8-48e7-a5c0-9918beb02d53")
 	)
 	(hierarchical_label "MCU_CAN"
 		(shape bidirectional)
@@ -40270,27 +40111,16 @@
 		)
 		(uuid "8bc37338-d1b2-4bd3-8ede-453add3cc0d2")
 	)
-	(hierarchical_label "IMU_SPI"
+	(hierarchical_label "IMU_INT2"
 		(shape input)
-		(at 146.05 80.01 0)
+		(at 106.68 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cb11b9c9-22a5-42ad-a09a-75f01429d6c2")
-	)
-	(hierarchical_label "GPS_1PPS"
-		(shape input)
-		(at 140.97 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f836128f-ee98-48c5-987c-9e34bdf8944e")
+		(uuid "e8d17db4-6d94-44a9-ad63-59c5754f907f")
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
@@ -40479,17 +40309,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_microcontrollers:Krill")
-		(at 41.91 85.09 0)
-		(unit 1)
+		(lib_id "bfr_microcontroller_breakouts:Krill")
+		(at 99.06 143.51 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1518a164-0377-4af2-810a-d8bc0c963823")
+		(uuid "651b9b6d-bda0-479e-93da-b50570f2b99b")
 		(property "Reference" "MCU201"
-			(at 41.91 64.77 0)
+			(at 99.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40497,15 +40327,15 @@
 			)
 		)
 		(property "Value" "Krill"
-			(at 41.91 67.31 0)
+			(at 99.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "bfr_connectors:TE_1-2199119-5"
-			(at 41.91 85.09 0)
+		(property "Footprint" "bfr_connectors:Krill"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40514,7 +40344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l552cc.pdf"
-			(at 41.91 85.09 0)
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40522,8 +40352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 85.09 0)
+		(property "Description" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40531,8 +40361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
-			(at 41.91 85.09 0)
+		(property "Connector Datasheet" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40540,8 +40370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 41.91 85.09 0)
+		(property "Manufacturer P/N" "2E0BC21-S85BM-7H"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40549,8 +40379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
-			(at 41.91 85.09 0)
+		(property "Manufacturer" "Foxconn"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40558,8 +40388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" ""
-			(at 41.91 85.09 0)
+		(property "Digikey P/N" "609-MDT850M01501CT-ND"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40567,8 +40397,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" ""
-			(at 41.91 85.09 0)
+		(property "Mouser P/N" "649-MDT850M01501 "
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40576,8 +40406,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" ""
-			(at 41.91 85.09 0)
+		(property "LCSC P/N" "C410529"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40585,366 +40415,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Connector Datasheet" "https://jlcpcb.com/partdetail/TEConnectivity-1_21991195/C574849"
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "8dd68bd2-5489-47c7-a42d-45d265a18d40")
-		)
-		(pin "17"
-			(uuid "b2c1db44-3399-4f47-884b-aa2e36eb23cb")
-		)
-		(pin "10"
-			(uuid "007393e6-14d8-478c-ae6a-9c360bbe6546")
-		)
-		(pin "31"
-			(uuid "a302f331-34c0-44b1-95b9-6c002026c3c0")
-		)
-		(pin "20"
-			(uuid "65cac2d4-96b6-40f3-9b0f-9d2eaa0d71ec")
-		)
-		(pin "18"
-			(uuid "837d3125-0cb3-4f19-ad04-9a78088b3558")
-		)
-		(pin "33"
-			(uuid "7e1277b2-f11d-451c-8ca7-ed697ac2fa53")
-			(alternate "SPI1_MOSI")
-		)
-		(pin "38"
-			(uuid "08b52e3c-a159-4e9c-95b1-533a3ce51585")
-		)
-		(pin "30"
-			(uuid "295d4f1f-2637-46df-b811-3ae2a1b792aa")
-		)
-		(pin "16"
-			(uuid "f1cf3f1e-9e7e-4352-88a9-b113e3d769b7")
-		)
-		(pin "15"
-			(uuid "16884362-9880-4fad-ba74-2d5ebfc8ea35")
-		)
-		(pin "14"
-			(uuid "9fb54bf4-2ad7-420e-9112-b2ec767bafc0")
-		)
-		(pin "29"
-			(uuid "22aff60e-79c3-4b95-bb3e-32bddbeae3e1")
-		)
-		(pin "37"
-			(uuid "d0a15639-b620-4adb-bb5e-fb94cf1e24d0")
-			(alternate "SPI1_MISO")
-		)
-		(pin "32"
-			(uuid "d03c04e4-338d-4005-a275-602f4ab89316")
-		)
-		(pin "27"
-			(uuid "7d1ea935-6ea0-40cf-aa1c-f82593d54557")
-		)
-		(pin "42"
-			(uuid "f7254ead-9a80-4b3a-8292-e600699fcb71")
-		)
-		(pin "36"
-			(uuid "fba2068f-8afe-4230-a466-c98b6591cdc6")
-		)
-		(pin "23"
-			(uuid "7eb07fe6-8ab3-48f5-9065-79504d558d3c")
-		)
-		(pin "41"
-			(uuid "3c93ae25-4166-4560-85dc-7743b2e55292")
-			(alternate "SPI1_SCK")
-		)
-		(pin "26"
-			(uuid "f227c0a6-70dd-447b-976a-10e562f24bf4")
-		)
-		(pin "28"
-			(uuid "f185c725-c3d2-4f49-8268-b916daa500e9")
-		)
-		(pin "25"
-			(uuid "a7286482-43a3-4476-82ae-6fe6d6d0a91b")
-		)
-		(pin "21"
-			(uuid "6bf9b123-9c20-4db1-9e17-f282c4be4e7f")
-		)
-		(pin "52"
-			(uuid "e24362ca-ee0f-4584-b77c-e079bbb53079")
-		)
-		(pin "13"
-			(uuid "bd4c7d5d-eec6-440a-b6d6-668f891bb2c7")
-		)
-		(pin "48"
-			(uuid "b06eff31-6f49-4840-89ba-7c06ae380da2")
-		)
-		(pin "45"
-			(uuid "e4ae0f6f-d702-4d9d-818f-c540325c7869")
-			(alternate "SPI1_NSS")
-		)
-		(pin "43"
-			(uuid "29cb5626-9024-43cf-ac2f-9edeea169226")
-		)
-		(pin "35"
-			(uuid "d6ec5d7e-bd28-4654-ae5a-e14c92805b8e")
-		)
-		(pin "49"
-			(uuid "77130e53-012d-4215-a3f0-6e3e22fe6d15")
-			(alternate "UART4_RX")
-		)
-		(pin "22"
-			(uuid "9fc6546a-8b21-40c0-a74d-338774702cd1")
-		)
-		(pin "53"
-			(uuid "3fbf7ecf-b049-4d8c-afcb-ca3eea02bfbb")
-			(alternate "UART4_TX")
-		)
-		(pin "9"
-			(uuid "f3077346-a0d4-41fa-a1ae-6d673377645a")
-		)
-		(pin "19"
-			(uuid "4f452f88-d839-43ba-8e24-a0c30b2ec221")
-		)
-		(pin "40"
-			(uuid "628310f1-b5e4-41f6-a9e0-af91e8001f68")
-		)
-		(pin "44"
-			(uuid "4c86453a-1b59-4c83-8552-f4091a28cf02")
-		)
-		(pin "4"
-			(uuid "20d49d84-dc28-4ba1-86e2-04339f240a49")
-		)
-		(pin "24"
-			(uuid "37040e2f-50b8-4d89-a70a-11b0c34d03df")
-		)
-		(pin "8"
-			(uuid "0baa2b3b-ad90-437a-a1b2-352b367ae2b4")
-		)
-		(pin "34"
-			(uuid "c5b8fbde-b02b-4ace-80cb-70709ad194d2")
-		)
-		(pin "39"
-			(uuid "12946d8b-b94a-4e1f-8363-18b1c55d8414")
-		)
-		(pin "12"
-			(uuid "de036312-5ecc-4dce-881b-d4f3d2b00ec3")
-		)
-		(pin "5"
-			(uuid "34d22f9b-c297-451c-8d10-bb37b05e4eee")
-		)
-		(pin "50"
-			(uuid "bec6d794-5ac4-48d6-8290-323af8bbde44")
-		)
-		(pin "51"
-			(uuid "72439dc3-4ddb-41c5-8fb7-c679c1b03ca3")
-		)
-		(pin "46"
-			(uuid "0b849782-d2d9-4918-8b30-466086de4af5")
-		)
-		(pin "47"
-			(uuid "936ef27f-ed15-4cc4-a668-cfae607e2dfb")
-		)
-		(pin "54"
-			(uuid "14209ae5-88fe-4726-abda-8904c3a87d57")
-		)
-		(pin "55"
-			(uuid "aa656c79-f32a-437e-9a1e-936d380845a6")
-		)
-		(pin "56"
-			(uuid "e8715191-5eda-4762-a299-a4fdef3b0d43")
-		)
-		(pin "6"
-			(uuid "98ce885f-c98d-47a3-9b5e-232d11aa8485")
-		)
-		(pin "73"
-			(uuid "d07567a1-a131-4448-9592-24e2711fe3a4")
-		)
-		(pin "75"
-			(uuid "08dd7630-ae8b-4fb5-80b6-6c9b06381abd")
-		)
-		(pin "70"
-			(uuid "cdfc8660-4387-48f4-8b96-4e7f62f36ef1")
-		)
-		(pin "74"
-			(uuid "c36df9d7-6a3c-4465-bb53-dcd07eda8215")
-		)
-		(pin "68"
-			(uuid "a1103c46-8fef-4c99-a953-3bf8ae3e7d7c")
-		)
-		(pin "72"
-			(uuid "8cecfe19-936b-4c93-9e7a-098dee357fe2")
-		)
-		(pin "3"
-			(uuid "3693a8b7-5c60-4612-8882-a6f3b1490f27")
-		)
-		(pin "7"
-			(uuid "d1b5adb6-8136-476e-9c90-d8c98cf0e7bf")
-		)
-		(pin "57"
-			(uuid "212234f2-41d8-497a-8172-15529adfdf2a")
-		)
-		(pin "58"
-			(uuid "f8502691-bae4-4c95-a60b-2e77528318e3")
-		)
-		(pin "67"
-			(uuid "06fd4941-41e8-4f14-b614-aa2ae07434fd")
-		)
-		(pin "69"
-			(uuid "fed8c943-cc3d-466b-a1c6-9580c8fa25db")
-		)
-		(pin "2"
-			(uuid "b19d38d9-44a6-4f51-a735-2a7018fe837c")
-		)
-		(pin "71"
-			(uuid "59ef62b1-4ce3-4cf4-877a-4073cda86bd8")
-		)
-		(pin "1"
-			(uuid "cbe92442-4896-4489-806c-695e4e20863d")
-		)
-		(instances
-			(project ""
-				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
-					(reference "MCU201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_resistors:RMCF0603ZT0R00")
-		(at 73.66 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5eb9f351-6c53-47c0-9703-39d029e1315f")
-		(property "Reference" "R201"
-			(at 73.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 73.66 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 73.66 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
-			(at 73.66 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603ZT0R00"
-			(at 73.66 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "0Ω 0603 Resistor"
-			(at 73.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 73.66 85.09 0)
+		(property "JLCPCB Basic Part" "No"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40953,7 +40425,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 73.66 86.36 0)
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40961,8 +40433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
-			(at 73.66 87.63 0)
+		(property "Created By" "Tony"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40970,8 +40442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603ZT0R00"
-			(at 73.66 87.63 0)
+		(property "Mating Connector" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40979,8 +40451,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C21189"
-			(at 73.66 87.63 0)
+		(property "Pretty Name" ""
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40988,35 +40460,220 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "32"
+			(uuid "2855848b-d81e-45d7-a18a-f7185631786e")
 		)
-		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "17"
+			(uuid "68aad098-85eb-44f0-a00b-39a5c946bdc6")
 		)
-		(pin "2"
-			(uuid "ba42fdee-92fc-4201-9967-25001428f7d2")
+		(pin "10"
+			(uuid "1ddb9e51-f916-48bc-a8d3-71a9047ca9d4")
+		)
+		(pin "36"
+			(uuid "f88367b4-739e-416c-a859-9a1ff1c2cafa")
+			(alternate "USART3_RX")
+		)
+		(pin "13"
+			(uuid "cdb6e3a7-1609-4c82-9093-9968e5dab18d")
+		)
+		(pin "9"
+			(uuid "2593a71a-ed70-4a19-b00b-f54509808c99")
+		)
+		(pin "37"
+			(uuid "608df15a-5402-4da3-96bf-50ce7dceb010")
+			(alternate "SPI1_MISO")
+		)
+		(pin "52"
+			(uuid "36af8241-f236-45b7-83a3-cfaa7ac1d12f")
+		)
+		(pin "16"
+			(uuid "1fe0813d-f623-4ff3-ac7e-e2d2baab86d2")
+			(alternate "USART1_RX")
+		)
+		(pin "33"
+			(uuid "ed26bdb8-036f-47d6-9f4a-8e4fd4ee757d")
+			(alternate "SPI1_MOSI")
+		)
+		(pin "29"
+			(uuid "72b7e91c-20c7-40b0-b366-ddf440aa5584")
+		)
+		(pin "40"
+			(uuid "77e6bced-8925-4156-8f45-0d1f04fca927")
+			(alternate "USART3_TX")
+		)
+		(pin "53"
+			(uuid "953ad0d2-bc90-4376-940e-9d2d9d2ad322")
+		)
+		(pin "49"
+			(uuid "db64f896-7f2b-4114-8703-97ff1fea94d8")
+		)
+		(pin "48"
+			(uuid "6404f4eb-06bb-4dd1-975a-4a0bb0672b6a")
+		)
+		(pin "44"
+			(uuid "c11b42cb-9189-4e94-a136-f54344cc2c9d")
+		)
+		(pin "45"
+			(uuid "84096002-31f8-428c-be3d-8d514996681e")
+			(alternate "SPI1_NSS")
+		)
+		(pin "41"
+			(uuid "af4c8038-f140-4132-bfa2-2c6a82e2a5d4")
+			(alternate "SPI1_SCK")
+		)
+		(pin "25"
+			(uuid "7575e80d-c585-48c6-b9f6-af1e19e19715")
+		)
+		(pin "21"
+			(uuid "9b45739f-d9b2-4731-a805-c8105122b173")
+		)
+		(pin "8"
+			(uuid "db90d1a4-d852-4bef-b3e0-2cf964a102cb")
+		)
+		(pin "12"
+			(uuid "60284430-1173-44a8-a905-13add5772f3b")
+			(alternate "USART1_TX")
+		)
+		(pin "28"
+			(uuid "208f4659-a7e9-4188-afbc-9e52e4f6c401")
+		)
+		(pin "24"
+			(uuid "d467f2c5-3a2a-4ac0-a373-749df9cb5f42")
+		)
+		(pin "20"
+			(uuid "ff262e6b-d341-4257-85e5-b11bceb8bd31")
+		)
+		(pin "43"
+			(uuid "46659e9a-92c3-453a-afb6-7a0ea874d19a")
+		)
+		(pin "27"
+			(uuid "a6c9f734-72ba-4ad4-a2e0-e8dd6abae6f8")
+		)
+		(pin "46"
+			(uuid "e6d5e6e2-5efc-48ff-8f81-4c14ff02588e")
+		)
+		(pin "6"
+			(uuid "5598c356-c2f5-4fa0-90d1-d8fcca4749a4")
+		)
+		(pin "73"
+			(uuid "7ad56010-a5c0-44d7-964e-337ff9c537e3")
+		)
+		(pin "11"
+			(uuid "fe3d4551-01bd-484f-9fd6-2ce7738e9c77")
+		)
+		(pin "42"
+			(uuid "9deb844c-1027-49f5-bee7-866378261fc2")
+		)
+		(pin "26"
+			(uuid "525fcfb0-f037-4c87-a842-980b03a0e78e")
+		)
+		(pin "5"
+			(uuid "8a30029c-2137-4411-a7db-eb8ce0a01eea")
+		)
+		(pin "50"
+			(uuid "8d173b02-75d7-4158-a958-5ce255f36696")
+		)
+		(pin "15"
+			(uuid "c4a7e938-8b1a-41b2-9ad5-f459ed07b45c")
+		)
+		(pin "54"
+			(uuid "6b8b0595-1dc1-43be-bb3e-5ab23365eeea")
+		)
+		(pin "38"
+			(uuid "f8e6bb92-87c8-400c-bf49-240dcfa0662c")
+		)
+		(pin "47"
+			(uuid "6d764f24-1f93-4c8b-9454-d9edbdc771de")
+		)
+		(pin "14"
+			(uuid "2ce948c4-f476-438b-9ee5-7b4c398d976e")
+		)
+		(pin "18"
+			(uuid "c36b04a6-7697-44fc-8d9c-d8365fd05cb2")
+		)
+		(pin "34"
+			(uuid "d659ddc3-562b-4277-b503-322583aa5dea")
+		)
+		(pin "35"
+			(uuid "46aec632-d2c4-4ad6-8b16-593f6436b638")
+		)
+		(pin "31"
+			(uuid "34608fe3-bbfa-40de-837c-f09eac6d3eb4")
+		)
+		(pin "22"
+			(uuid "2438bfac-d378-4baa-96a0-e48849841c45")
+		)
+		(pin "23"
+			(uuid "d3ace4f0-aa41-4e6d-b09f-7fba36fbe506")
+		)
+		(pin "39"
+			(uuid "729a93cb-a8ef-4bfa-9e9d-48a7159c7636")
+		)
+		(pin "19"
+			(uuid "44f78e66-2df2-4153-a17e-939e01148f3f")
+		)
+		(pin "30"
+			(uuid "caf2548c-6172-4a9e-bfdb-b2cbbe0c3fa5")
+		)
+		(pin "4"
+			(uuid "7e30324e-0b7d-42e0-b85d-ab5db1dbfb21")
+		)
+		(pin "51"
+			(uuid "0ec30945-20cb-4958-bca0-7f4107a05e89")
+		)
+		(pin "55"
+			(uuid "5508b12e-ad8b-4ffe-9e12-548bbbb166d4")
+		)
+		(pin "57"
+			(uuid "c8900b09-b81b-410d-94dd-58926a4c3f2f")
+		)
+		(pin "7"
+			(uuid "ba83ff22-61b0-4702-88af-bdb0e0a20a8d")
+		)
+		(pin "75"
+			(uuid "c8b9be86-354b-4343-9858-eb9ddfdfeb5d")
+		)
+		(pin "72"
+			(uuid "147c6352-21e2-4801-94fb-4299752f376b")
+		)
+		(pin "74"
+			(uuid "8284e363-c65f-4e1b-ae82-09bbd08a6c60")
+		)
+		(pin "70"
+			(uuid "ddf9df6b-ddde-420d-9c50-5b8d0576c948")
+		)
+		(pin "68"
+			(uuid "a15687a6-e5d0-4b66-bd78-ba27bf2e3e75")
+		)
+		(pin "56"
+			(uuid "cde05428-7850-4452-91cf-bf85376a89ac")
+		)
+		(pin "69"
+			(uuid "8e70e6e2-1fd6-4736-b893-6ee76b895e44")
 		)
 		(pin "1"
-			(uuid "71784dfa-6808-4242-af65-3ead263cc94a")
+			(uuid "81c836cf-ed99-47b3-92ff-c79021f29993")
+		)
+		(pin "2"
+			(uuid "148e8389-7be1-4c4f-a7ec-d91fdbb225bc")
+		)
+		(pin "58"
+			(uuid "e8674868-798f-4257-a40d-4d02dfff4df6")
+		)
+		(pin "3"
+			(uuid "a5ba3304-e385-43dc-bfe9-37bb40e5c06e")
+		)
+		(pin "67"
+			(uuid "acfa25ae-1f05-484d-82d1-b12a3e790694")
+		)
+		(pin "71"
+			(uuid "4cf6e7ec-0243-4fbe-b175-492c25e22924")
 		)
 		(instances
-			(project "SMU V1"
+			(project "SMU V2"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
-					(reference "R201")
-					(unit 1)
+					(reference "MCU201")
+					(unit 2)
 				)
 			)
 		)
@@ -41208,7 +40865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_microcontrollers:Krill")
+		(lib_id "bfr_microcontroller_breakouts:Krill")
 		(at 170.18 93.98 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -41216,7 +40873,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a160815e-7d82-4d6f-9768-71edb6453581")
+		(uuid "a2888db0-10af-431f-aa66-92e9a947c615")
 		(property "Reference" "MCU201"
 			(at 170.18 73.66 0)
 			(effects
@@ -41233,7 +40890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bfr_connectors:TE_1-2199119-5"
+		(property "Footprint" "bfr_connectors:Krill"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41251,7 +40908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41260,7 +40917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Connector Datasheet" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41269,7 +40926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer P/N" "2E0BC21-S85BM-7H"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41278,7 +40935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
+		(property "Manufacturer" "Foxconn"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41287,7 +40944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" ""
+		(property "Digikey P/N" "609-MDT850M01501CT-ND"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41296,7 +40953,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "Mouser P/N" "649-MDT850M01501 "
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41305,7 +40962,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" ""
+		(property "LCSC P/N" "C410529"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41314,7 +40971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" ""
+		(property "JLCPCB Basic Part" "No"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41323,7 +40980,25 @@
 				(hide yes)
 			)
 		)
-		(property "Created By" ""
+		(property "Order From" "LCSC"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Tony"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -41341,221 +41016,214 @@
 				(hide yes)
 			)
 		)
-		(property "Connector Datasheet" "https://jlcpcb.com/partdetail/TEConnectivity-1_21991195/C574849"
-			(at 170.18 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "8dd68bd2-5489-47c7-a42d-45d265a18d41")
+		(pin "32"
+			(uuid "2855848b-d81e-45d7-a18a-f7185631786e")
 		)
 		(pin "17"
-			(uuid "b2c1db44-3399-4f47-884b-aa2e36eb23cc")
+			(uuid "ea653dfd-4512-4481-a9af-35fda4ad746c")
 		)
 		(pin "10"
-			(uuid "007393e6-14d8-478c-ae6a-9c360bbe6547")
-		)
-		(pin "31"
-			(uuid "a302f331-34c0-44b1-95b9-6c002026c3c1")
-		)
-		(pin "20"
-			(uuid "65cac2d4-96b6-40f3-9b0f-9d2eaa0d71ed")
-		)
-		(pin "18"
-			(uuid "837d3125-0cb3-4f19-ad04-9a78088b3559")
-		)
-		(pin "33"
-			(uuid "7e1277b2-f11d-451c-8ca7-ed697ac2fa54")
-			(alternate "SPI1_MOSI")
-		)
-		(pin "38"
-			(uuid "08b52e3c-a159-4e9c-95b1-533a3ce51586")
-		)
-		(pin "30"
-			(uuid "295d4f1f-2637-46df-b811-3ae2a1b792ab")
-		)
-		(pin "16"
-			(uuid "f1cf3f1e-9e7e-4352-88a9-b113e3d769b8")
-		)
-		(pin "15"
-			(uuid "16884362-9880-4fad-ba74-2d5ebfc8ea36")
-		)
-		(pin "14"
-			(uuid "9fb54bf4-2ad7-420e-9112-b2ec767bafc1")
-		)
-		(pin "29"
-			(uuid "22aff60e-79c3-4b95-bb3e-32bddbeae3e2")
-		)
-		(pin "19"
-			(uuid "d0a15639-b620-4adb-bb5e-fb94cf1e24d1")
-		)
-		(pin "32"
-			(uuid "d03c04e4-338d-4005-a275-602f4ab89317")
-		)
-		(pin "27"
-			(uuid "7d1ea935-6ea0-40cf-aa1c-f82593d54558")
-		)
-		(pin "42"
-			(uuid "f7254ead-9a80-4b3a-8292-e600699fcb72")
-		)
-		(pin "8"
-			(uuid "fba2068f-8afe-4230-a466-c98b6591cdc7")
-		)
-		(pin "23"
-			(uuid "7eb07fe6-8ab3-48f5-9065-79504d558d3d")
-		)
-		(pin "41"
-			(uuid "3c93ae25-4166-4560-85dc-7743b2e55293")
-			(alternate "SPI1_SCK")
-		)
-		(pin "26"
-			(uuid "f227c0a6-70dd-447b-976a-10e562f24bf5")
-		)
-		(pin "28"
-			(uuid "f185c725-c3d2-4f49-8268-b916daa500ea")
-		)
-		(pin "25"
-			(uuid "a7286482-43a3-4476-82ae-6fe6d6d0a91c")
-		)
-		(pin "21"
-			(uuid "6bf9b123-9c20-4db1-9e17-f282c4be4e80")
-		)
-		(pin "9"
-			(uuid "e24362ca-ee0f-4584-b77c-e079bbb5307a")
-		)
-		(pin "45"
-			(uuid "bd4c7d5d-eec6-440a-b6d6-668f891bb2c8")
-			(alternate "SPI1_NSS")
-		)
-		(pin "24"
-			(uuid "b06eff31-6f49-4840-89ba-7c06ae380da3")
-		)
-		(pin "53"
-			(uuid "e4ae0f6f-d702-4d9d-818f-c540325c786a")
-			(alternate "UART4_TX")
-		)
-		(pin "52"
-			(uuid "29cb5626-9024-43cf-ac2f-9edeea169227")
-		)
-		(pin "35"
-			(uuid "d6ec5d7e-bd28-4654-ae5a-e14c92805b8f")
-		)
-		(pin "37"
-			(uuid "77130e53-012d-4215-a3f0-6e3e22fe6d16")
-			(alternate "SPI1_MISO")
-		)
-		(pin "40"
-			(uuid "9fc6546a-8b21-40c0-a74d-338774702cd2")
-		)
-		(pin "22"
-			(uuid "3fbf7ecf-b049-4d8c-afcb-ca3eea02bfbc")
-		)
-		(pin "48"
-			(uuid "f3077346-a0d4-41fa-a1ae-6d673377645b")
+			(uuid "1ddb9e51-f916-48bc-a8d3-71a9047ca9d4")
 		)
 		(pin "36"
-			(uuid "4f452f88-d839-43ba-8e24-a0c30b2ec222")
+			(uuid "f88367b4-739e-416c-a859-9a1ff1c2cafa")
+			(alternate "USART3_RX")
 		)
 		(pin "13"
-			(uuid "628310f1-b5e4-41f6-a9e0-af91e8001f69")
+			(uuid "74d72c78-d2c8-460a-ad1d-9df0693e886b")
 		)
-		(pin "44"
-			(uuid "4c86453a-1b59-4c83-8552-f4091a28cf03")
+		(pin "9"
+			(uuid "26b28460-7d4a-4aea-ad9e-c338cf1f0f98")
 		)
-		(pin "4"
-			(uuid "20d49d84-dc28-4ba1-86e2-04339f240a4a")
+		(pin "37"
+			(uuid "23e698a5-84ed-49ba-b4f2-d072e773a646")
+			(alternate "SPI1_MISO")
+		)
+		(pin "52"
+			(uuid "36af8241-f236-45b7-83a3-cfaa7ac1d12f")
+		)
+		(pin "16"
+			(uuid "1fe0813d-f623-4ff3-ac7e-e2d2baab86d2")
+			(alternate "USART1_RX")
+		)
+		(pin "33"
+			(uuid "e1c5ea0c-71c5-4715-9e7d-3de6dd198482")
+			(alternate "SPI1_MOSI")
+		)
+		(pin "29"
+			(uuid "03ffab7a-e31a-4fa4-82b0-cd49940dc0b9")
+		)
+		(pin "40"
+			(uuid "77e6bced-8925-4156-8f45-0d1f04fca927")
+			(alternate "USART3_TX")
+		)
+		(pin "53"
+			(uuid "65976bfb-a991-45f7-a43c-7fc5cada1321")
 		)
 		(pin "49"
-			(uuid "37040e2f-50b8-4d89-a70a-11b0c34d03e0")
-			(alternate "UART4_RX")
+			(uuid "ed4f18b2-2cdf-4dfe-92a8-27588b23c43e")
+		)
+		(pin "48"
+			(uuid "6404f4eb-06bb-4dd1-975a-4a0bb0672b6a")
+		)
+		(pin "44"
+			(uuid "c11b42cb-9189-4e94-a136-f54344cc2c9d")
+		)
+		(pin "45"
+			(uuid "ef7d6c28-869c-4fe6-abf8-3002619a028f")
+			(alternate "SPI1_NSS")
+		)
+		(pin "41"
+			(uuid "d6b3a8e0-f4d5-4794-bcc3-29bc18231de4")
+			(alternate "SPI1_SCK")
+		)
+		(pin "25"
+			(uuid "3c0a5b8d-90f5-4d81-9cc7-e2ef9d91cb79")
+		)
+		(pin "21"
+			(uuid "33d4d2fd-8d2c-4256-bb02-e8473b43f081")
+		)
+		(pin "8"
+			(uuid "db90d1a4-d852-4bef-b3e0-2cf964a102cb")
 		)
 		(pin "12"
-			(uuid "0baa2b3b-ad90-437a-a1b2-352b367ae2b5")
+			(uuid "60284430-1173-44a8-a905-13add5772f3b")
+			(alternate "USART1_TX")
 		)
-		(pin "34"
-			(uuid "c5b8fbde-b02b-4ace-80cb-70709ad194d3")
+		(pin "28"
+			(uuid "208f4659-a7e9-4188-afbc-9e52e4f6c401")
 		)
-		(pin "39"
-			(uuid "12946d8b-b94a-4e1f-8363-18b1c55d8415")
+		(pin "24"
+			(uuid "d467f2c5-3a2a-4ac0-a373-749df9cb5f42")
+		)
+		(pin "20"
+			(uuid "ff262e6b-d341-4257-85e5-b11bceb8bd31")
 		)
 		(pin "43"
-			(uuid "de036312-5ecc-4dce-881b-d4f3d2b00ec4")
+			(uuid "46659e9a-92c3-453a-afb6-7a0ea874d19a")
 		)
-		(pin "5"
-			(uuid "34d22f9b-c297-451c-8d10-bb37b05e4eef")
-		)
-		(pin "50"
-			(uuid "bec6d794-5ac4-48d6-8290-323af8bbde45")
-		)
-		(pin "51"
-			(uuid "72439dc3-4ddb-41c5-8fb7-c679c1b03ca4")
+		(pin "27"
+			(uuid "a6c9f734-72ba-4ad4-a2e0-e8dd6abae6f8")
 		)
 		(pin "46"
-			(uuid "0b849782-d2d9-4918-8b30-466086de4af6")
-		)
-		(pin "47"
-			(uuid "936ef27f-ed15-4cc4-a668-cfae607e2dfc")
-		)
-		(pin "54"
-			(uuid "14209ae5-88fe-4726-abda-8904c3a87d58")
-		)
-		(pin "55"
-			(uuid "aa656c79-f32a-437e-9a1e-936d380845a7")
-		)
-		(pin "56"
-			(uuid "e8715191-5eda-4762-a299-a4fdef3b0d44")
+			(uuid "e6d5e6e2-5efc-48ff-8f81-4c14ff02588e")
 		)
 		(pin "6"
-			(uuid "98ce885f-c98d-47a3-9b5e-232d11aa8486")
+			(uuid "5598c356-c2f5-4fa0-90d1-d8fcca4749a4")
 		)
 		(pin "73"
-			(uuid "d07567a1-a131-4448-9592-24e2711fe3a5")
+			(uuid "7ad56010-a5c0-44d7-964e-337ff9c537e3")
 		)
-		(pin "75"
-			(uuid "08dd7630-ae8b-4fb5-80b6-6c9b06381abe")
+		(pin "11"
+			(uuid "fe3d4551-01bd-484f-9fd6-2ce7738e9c77")
 		)
-		(pin "70"
-			(uuid "cdfc8660-4387-48f4-8b96-4e7f62f36ef2")
+		(pin "42"
+			(uuid "9deb844c-1027-49f5-bee7-866378261fc2")
 		)
-		(pin "74"
-			(uuid "c36df9d7-6a3c-4465-bb53-dcd07eda8216")
+		(pin "26"
+			(uuid "525fcfb0-f037-4c87-a842-980b03a0e78e")
 		)
-		(pin "68"
-			(uuid "a1103c46-8fef-4c99-a953-3bf8ae3e7d7d")
+		(pin "5"
+			(uuid "8a30029c-2137-4411-a7db-eb8ce0a01eea")
 		)
-		(pin "72"
-			(uuid "8cecfe19-936b-4c93-9e7a-098dee357fe3")
+		(pin "50"
+			(uuid "8d173b02-75d7-4158-a958-5ce255f36696")
 		)
-		(pin "3"
-			(uuid "3693a8b7-5c60-4612-8882-a6f3b1490f28")
+		(pin "15"
+			(uuid "c4a7e938-8b1a-41b2-9ad5-f459ed07b45c")
 		)
-		(pin "7"
-			(uuid "d1b5adb6-8136-476e-9c90-d8c98cf0e7c0")
+		(pin "54"
+			(uuid "6b8b0595-1dc1-43be-bb3e-5ab23365eeea")
+		)
+		(pin "38"
+			(uuid "f8e6bb92-87c8-400c-bf49-240dcfa0662c")
+		)
+		(pin "47"
+			(uuid "6d764f24-1f93-4c8b-9454-d9edbdc771de")
+		)
+		(pin "14"
+			(uuid "2ce948c4-f476-438b-9ee5-7b4c398d976e")
+		)
+		(pin "18"
+			(uuid "c36b04a6-7697-44fc-8d9c-d8365fd05cb2")
+		)
+		(pin "34"
+			(uuid "d659ddc3-562b-4277-b503-322583aa5dea")
+		)
+		(pin "35"
+			(uuid "46aec632-d2c4-4ad6-8b16-593f6436b638")
+		)
+		(pin "31"
+			(uuid "34608fe3-bbfa-40de-837c-f09eac6d3eb4")
+		)
+		(pin "22"
+			(uuid "2438bfac-d378-4baa-96a0-e48849841c45")
+		)
+		(pin "23"
+			(uuid "d3ace4f0-aa41-4e6d-b09f-7fba36fbe506")
+		)
+		(pin "39"
+			(uuid "729a93cb-a8ef-4bfa-9e9d-48a7159c7636")
+		)
+		(pin "19"
+			(uuid "44f78e66-2df2-4153-a17e-939e01148f3f")
+		)
+		(pin "30"
+			(uuid "caf2548c-6172-4a9e-bfdb-b2cbbe0c3fa5")
+		)
+		(pin "4"
+			(uuid "7e30324e-0b7d-42e0-b85d-ab5db1dbfb21")
+		)
+		(pin "51"
+			(uuid "0ec30945-20cb-4958-bca0-7f4107a05e89")
+		)
+		(pin "55"
+			(uuid "5508b12e-ad8b-4ffe-9e12-548bbbb166d4")
 		)
 		(pin "57"
-			(uuid "212234f2-41d8-497a-8172-15529adfdf2b")
+			(uuid "c8900b09-b81b-410d-94dd-58926a4c3f2f")
 		)
-		(pin "58"
-			(uuid "f8502691-bae4-4c95-a60b-2e77528318e4")
+		(pin "7"
+			(uuid "ba83ff22-61b0-4702-88af-bdb0e0a20a8d")
 		)
-		(pin "67"
-			(uuid "06fd4941-41e8-4f14-b614-aa2ae07434fe")
+		(pin "75"
+			(uuid "c8b9be86-354b-4343-9858-eb9ddfdfeb5d")
+		)
+		(pin "72"
+			(uuid "147c6352-21e2-4801-94fb-4299752f376b")
+		)
+		(pin "74"
+			(uuid "8284e363-c65f-4e1b-ae82-09bbd08a6c60")
+		)
+		(pin "70"
+			(uuid "ddf9df6b-ddde-420d-9c50-5b8d0576c948")
+		)
+		(pin "68"
+			(uuid "a15687a6-e5d0-4b66-bd78-ba27bf2e3e75")
+		)
+		(pin "56"
+			(uuid "cde05428-7850-4452-91cf-bf85376a89ac")
 		)
 		(pin "69"
-			(uuid "fed8c943-cc3d-466b-a1c6-9580c8fa25dc")
-		)
-		(pin "2"
-			(uuid "b19d38d9-44a6-4f51-a735-2a7018fe837d")
-		)
-		(pin "71"
-			(uuid "59ef62b1-4ce3-4cf4-877a-4073cda86bd9")
+			(uuid "8e70e6e2-1fd6-4736-b893-6ee76b895e44")
 		)
 		(pin "1"
-			(uuid "cbe92442-4896-4489-806c-695e4e20863e")
+			(uuid "81c836cf-ed99-47b3-92ff-c79021f29993")
+		)
+		(pin "2"
+			(uuid "148e8389-7be1-4c4f-a7ec-d91fdbb225bc")
+		)
+		(pin "58"
+			(uuid "e8674868-798f-4257-a40d-4d02dfff4df6")
+		)
+		(pin "3"
+			(uuid "a5ba3304-e385-43dc-bfe9-37bb40e5c06e")
+		)
+		(pin "67"
+			(uuid "acfa25ae-1f05-484d-82d1-b12a3e790694")
+		)
+		(pin "71"
+			(uuid "4cf6e7ec-0243-4fbe-b175-492c25e22924")
 		)
 		(instances
 			(project ""
@@ -41753,190 +41421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_resistors:RMCF0603ZT0R00")
-		(at 67.31 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afa3605e-1039-4367-b7b1-48897f657524")
-		(property "Reference" "R202"
-			(at 67.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 67.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 67.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 67.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0Ω 0603 JLCPCB Basic Resistor"
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 67.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 67.31 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603ZT0R00.lib"
-			(at 67.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603ZT0R00"
-			(at 67.31 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "0Ω 0603 Resistor"
-			(at 67.31 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 67.31 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 67.31 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "RMCF0603ZT0R00CT-ND"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "708-RMCF0603ZT0R00"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C21189"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb1d70e1-9a58-4f18-b1a4-f4bd1037a34d")
-		)
-		(pin "1"
-			(uuid "d335f5b9-b577-4c7b-9f7a-bad9e8b5c915")
-		)
-		(instances
-			(project "SMU V1"
-				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
-					(reference "R202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bfr_utilities:SMD_Test_Point")
 		(at 196.85 109.22 0)
 		(mirror x)
@@ -41946,7 +41430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baedb44b-b94e-44eb-86ea-ed2370f7f57f")
-		(property "Reference" "TP206"
+		(property "Reference" "TP202"
 			(at 199.39 111.2303 0)
 			(effects
 				(font
@@ -41955,7 +41439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CANL"
+		(property "Value" "SMD Test Point"
 			(at 199.39 108.6903 0)
 			(effects
 				(font
@@ -42078,7 +41562,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
-					(reference "TP206")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -42337,17 +41821,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_microcontrollers:Krill")
-		(at 99.06 143.51 0)
-		(unit 2)
+		(lib_id "bfr_microcontroller_breakouts:Krill")
+		(at 41.91 85.09 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2c22cb3-c4c9-41ce-8895-48cdf8320067")
+		(uuid "e04f13ec-7327-4e9a-8d64-8fec71f7190f")
 		(property "Reference" "MCU201"
-			(at 99.06 123.19 0)
+			(at 41.91 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42355,15 +41839,15 @@
 			)
 		)
 		(property "Value" "Krill"
-			(at 99.06 125.73 0)
+			(at 41.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "bfr_connectors:TE_1-2199119-5"
-			(at 99.06 143.51 0)
+		(property "Footprint" "bfr_connectors:Krill"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42372,7 +41856,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l552cc.pdf"
-			(at 99.06 143.51 0)
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42380,8 +41864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 143.51 0)
+		(property "Description" "STM32L552CCT6 M.2 NGFF Miniature Microcontroller"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42389,8 +41873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
-			(at 99.06 143.51 0)
+		(property "Connector Datasheet" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42398,8 +41882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 99.06 143.51 0)
+		(property "Manufacturer P/N" "2E0BC21-S85BM-7H"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42407,8 +41891,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" ""
-			(at 99.06 143.51 0)
+		(property "Manufacturer" "Foxconn"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42416,8 +41900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" ""
-			(at 99.06 143.51 0)
+		(property "Digikey P/N" "609-MDT850M01501CT-ND"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42425,8 +41909,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" ""
-			(at 99.06 143.51 0)
+		(property "Mouser P/N" "649-MDT850M01501 "
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42434,8 +41918,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" ""
-			(at 99.06 143.51 0)
+		(property "LCSC P/N" "C410529"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42443,8 +41927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" ""
-			(at 99.06 143.51 0)
+		(property "JLCPCB Basic Part" "No"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42452,8 +41936,26 @@
 				(hide yes)
 			)
 		)
-		(property "Created By" ""
-			(at 99.06 143.51 0)
+		(property "Order From" "LCSC"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Tony"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" "https://www.lcsc.com/datasheet/C410529.pdf?spm=wm.sxq.ssx.ggs&lcsc_vid=FVAKAlxQQVkKBFVTFVZcA1xeFANbAVFfT1hXA1JURwMxVlNRQ1hXU1xXQFRbVDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42462,235 +41964,228 @@
 			)
 		)
 		(property "Pretty Name" ""
-			(at 99.06 143.51 0)
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Connector Datasheet" "https://jlcpcb.com/partdetail/TEConnectivity-1_21991195/C574849"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "36"
-			(uuid "8dd68bd2-5489-47c7-a42d-45d265a18d42")
-		)
-		(pin "17"
-			(uuid "b2c1db44-3399-4f47-884b-aa2e36eb23cd")
-		)
-		(pin "40"
-			(uuid "007393e6-14d8-478c-ae6a-9c360bbe6548")
-		)
-		(pin "9"
-			(uuid "a302f331-34c0-44b1-95b9-6c002026c3c2")
-		)
-		(pin "20"
-			(uuid "65cac2d4-96b6-40f3-9b0f-9d2eaa0d71ee")
-		)
-		(pin "12"
-			(uuid "837d3125-0cb3-4f19-ad04-9a78088b355a")
-		)
-		(pin "33"
-			(uuid "7e1277b2-f11d-451c-8ca7-ed697ac2fa55")
-			(alternate "SPI1_MOSI")
-		)
-		(pin "37"
-			(uuid "08b52e3c-a159-4e9c-95b1-533a3ce51587")
-			(alternate "SPI1_MISO")
-		)
-		(pin "30"
-			(uuid "295d4f1f-2637-46df-b811-3ae2a1b792ac")
-		)
-		(pin "16"
-			(uuid "f1cf3f1e-9e7e-4352-88a9-b113e3d769b9")
-		)
-		(pin "15"
-			(uuid "16884362-9880-4fad-ba74-2d5ebfc8ea37")
-		)
-		(pin "14"
-			(uuid "9fb54bf4-2ad7-420e-9112-b2ec767bafc2")
-		)
-		(pin "29"
-			(uuid "22aff60e-79c3-4b95-bb3e-32bddbeae3e3")
-		)
-		(pin "19"
-			(uuid "d0a15639-b620-4adb-bb5e-fb94cf1e24d2")
 		)
 		(pin "32"
-			(uuid "d03c04e4-338d-4005-a275-602f4ab89318")
+			(uuid "2855848b-d81e-45d7-a18a-f7185631786e")
 		)
-		(pin "27"
-			(uuid "7d1ea935-6ea0-40cf-aa1c-f82593d54559")
-		)
-		(pin "49"
-			(uuid "f7254ead-9a80-4b3a-8292-e600699fcb73")
-			(alternate "UART4_RX")
-		)
-		(pin "42"
-			(uuid "fba2068f-8afe-4230-a466-c98b6591cdc8")
-		)
-		(pin "23"
-			(uuid "7eb07fe6-8ab3-48f5-9065-79504d558d3e")
-		)
-		(pin "41"
-			(uuid "3c93ae25-4166-4560-85dc-7743b2e55294")
-			(alternate "SPI1_SCK")
-		)
-		(pin "26"
-			(uuid "f227c0a6-70dd-447b-976a-10e562f24bf6")
-		)
-		(pin "28"
-			(uuid "f185c725-c3d2-4f49-8268-b916daa500eb")
-		)
-		(pin "25"
-			(uuid "a7286482-43a3-4476-82ae-6fe6d6d0a91d")
-		)
-		(pin "21"
-			(uuid "6bf9b123-9c20-4db1-9e17-f282c4be4e81")
-		)
-		(pin "45"
-			(uuid "e24362ca-ee0f-4584-b77c-e079bbb5307b")
-			(alternate "SPI1_NSS")
-		)
-		(pin "18"
-			(uuid "bd4c7d5d-eec6-440a-b6d6-668f891bb2c9")
-		)
-		(pin "53"
-			(uuid "b06eff31-6f49-4840-89ba-7c06ae380da4")
-			(alternate "UART4_TX")
-		)
-		(pin "31"
-			(uuid "e4ae0f6f-d702-4d9d-818f-c540325c786b")
-		)
-		(pin "43"
-			(uuid "29cb5626-9024-43cf-ac2f-9edeea169228")
-		)
-		(pin "35"
-			(uuid "d6ec5d7e-bd28-4654-ae5a-e14c92805b90")
-		)
-		(pin "38"
-			(uuid "77130e53-012d-4215-a3f0-6e3e22fe6d17")
-		)
-		(pin "24"
-			(uuid "9fc6546a-8b21-40c0-a74d-338774702cd3")
-		)
-		(pin "22"
-			(uuid "3fbf7ecf-b049-4d8c-afcb-ca3eea02bfbd")
-		)
-		(pin "13"
-			(uuid "f3077346-a0d4-41fa-a1ae-6d673377645c")
-		)
-		(pin "44"
-			(uuid "4f452f88-d839-43ba-8e24-a0c30b2ec223")
-		)
-		(pin "8"
-			(uuid "628310f1-b5e4-41f6-a9e0-af91e8001f6a")
-		)
-		(pin "11"
-			(uuid "4c86453a-1b59-4c83-8552-f4091a28cf04")
-		)
-		(pin "4"
-			(uuid "20d49d84-dc28-4ba1-86e2-04339f240a4b")
+		(pin "17"
+			(uuid "ea653dfd-4512-4481-a9af-35fda4ad746c")
 		)
 		(pin "10"
-			(uuid "37040e2f-50b8-4d89-a70a-11b0c34d03e1")
+			(uuid "1ddb9e51-f916-48bc-a8d3-71a9047ca9d4")
 		)
-		(pin "48"
-			(uuid "0baa2b3b-ad90-437a-a1b2-352b367ae2b6")
+		(pin "36"
+			(uuid "f88367b4-739e-416c-a859-9a1ff1c2cafa")
+			(alternate "USART3_RX")
 		)
-		(pin "34"
-			(uuid "c5b8fbde-b02b-4ace-80cb-70709ad194d4")
+		(pin "13"
+			(uuid "74d72c78-d2c8-460a-ad1d-9df0693e886b")
 		)
-		(pin "39"
-			(uuid "12946d8b-b94a-4e1f-8363-18b1c55d8416")
+		(pin "9"
+			(uuid "26b28460-7d4a-4aea-ad9e-c338cf1f0f98")
+		)
+		(pin "37"
+			(uuid "23e698a5-84ed-49ba-b4f2-d072e773a646")
+			(alternate "SPI1_MISO")
 		)
 		(pin "52"
-			(uuid "de036312-5ecc-4dce-881b-d4f3d2b00ec5")
+			(uuid "36af8241-f236-45b7-83a3-cfaa7ac1d12f")
 		)
-		(pin "5"
-			(uuid "34d22f9b-c297-451c-8d10-bb37b05e4ef0")
+		(pin "16"
+			(uuid "1fe0813d-f623-4ff3-ac7e-e2d2baab86d2")
+			(alternate "USART1_RX")
 		)
-		(pin "50"
-			(uuid "bec6d794-5ac4-48d6-8290-323af8bbde46")
+		(pin "33"
+			(uuid "e1c5ea0c-71c5-4715-9e7d-3de6dd198482")
+			(alternate "SPI1_MOSI")
 		)
-		(pin "51"
-			(uuid "72439dc3-4ddb-41c5-8fb7-c679c1b03ca5")
+		(pin "29"
+			(uuid "03ffab7a-e31a-4fa4-82b0-cd49940dc0b9")
+		)
+		(pin "40"
+			(uuid "77e6bced-8925-4156-8f45-0d1f04fca927")
+			(alternate "USART3_TX")
+		)
+		(pin "53"
+			(uuid "65976bfb-a991-45f7-a43c-7fc5cada1321")
+		)
+		(pin "49"
+			(uuid "ed4f18b2-2cdf-4dfe-92a8-27588b23c43e")
+		)
+		(pin "48"
+			(uuid "6404f4eb-06bb-4dd1-975a-4a0bb0672b6a")
+		)
+		(pin "44"
+			(uuid "c11b42cb-9189-4e94-a136-f54344cc2c9d")
+		)
+		(pin "45"
+			(uuid "ef7d6c28-869c-4fe6-abf8-3002619a028f")
+			(alternate "SPI1_NSS")
+		)
+		(pin "41"
+			(uuid "d6b3a8e0-f4d5-4794-bcc3-29bc18231de4")
+			(alternate "SPI1_SCK")
+		)
+		(pin "25"
+			(uuid "3c0a5b8d-90f5-4d81-9cc7-e2ef9d91cb79")
+		)
+		(pin "21"
+			(uuid "33d4d2fd-8d2c-4256-bb02-e8473b43f081")
+		)
+		(pin "8"
+			(uuid "db90d1a4-d852-4bef-b3e0-2cf964a102cb")
+		)
+		(pin "12"
+			(uuid "60284430-1173-44a8-a905-13add5772f3b")
+			(alternate "USART1_TX")
+		)
+		(pin "28"
+			(uuid "208f4659-a7e9-4188-afbc-9e52e4f6c401")
+		)
+		(pin "24"
+			(uuid "d467f2c5-3a2a-4ac0-a373-749df9cb5f42")
+		)
+		(pin "20"
+			(uuid "ff262e6b-d341-4257-85e5-b11bceb8bd31")
+		)
+		(pin "43"
+			(uuid "46659e9a-92c3-453a-afb6-7a0ea874d19a")
+		)
+		(pin "27"
+			(uuid "a6c9f734-72ba-4ad4-a2e0-e8dd6abae6f8")
 		)
 		(pin "46"
-			(uuid "0b849782-d2d9-4918-8b30-466086de4af7")
-		)
-		(pin "47"
-			(uuid "936ef27f-ed15-4cc4-a668-cfae607e2dfd")
-		)
-		(pin "54"
-			(uuid "14209ae5-88fe-4726-abda-8904c3a87d59")
-		)
-		(pin "55"
-			(uuid "aa656c79-f32a-437e-9a1e-936d380845a8")
-		)
-		(pin "56"
-			(uuid "e8715191-5eda-4762-a299-a4fdef3b0d45")
+			(uuid "e6d5e6e2-5efc-48ff-8f81-4c14ff02588e")
 		)
 		(pin "6"
-			(uuid "98ce885f-c98d-47a3-9b5e-232d11aa8487")
+			(uuid "5598c356-c2f5-4fa0-90d1-d8fcca4749a4")
 		)
 		(pin "73"
-			(uuid "d07567a1-a131-4448-9592-24e2711fe3a6")
+			(uuid "7ad56010-a5c0-44d7-964e-337ff9c537e3")
 		)
-		(pin "75"
-			(uuid "08dd7630-ae8b-4fb5-80b6-6c9b06381abf")
+		(pin "11"
+			(uuid "fe3d4551-01bd-484f-9fd6-2ce7738e9c77")
 		)
-		(pin "70"
-			(uuid "cdfc8660-4387-48f4-8b96-4e7f62f36ef3")
+		(pin "42"
+			(uuid "9deb844c-1027-49f5-bee7-866378261fc2")
 		)
-		(pin "74"
-			(uuid "c36df9d7-6a3c-4465-bb53-dcd07eda8217")
+		(pin "26"
+			(uuid "525fcfb0-f037-4c87-a842-980b03a0e78e")
 		)
-		(pin "68"
-			(uuid "a1103c46-8fef-4c99-a953-3bf8ae3e7d7e")
+		(pin "5"
+			(uuid "8a30029c-2137-4411-a7db-eb8ce0a01eea")
 		)
-		(pin "72"
-			(uuid "8cecfe19-936b-4c93-9e7a-098dee357fe4")
+		(pin "50"
+			(uuid "8d173b02-75d7-4158-a958-5ce255f36696")
 		)
-		(pin "3"
-			(uuid "3693a8b7-5c60-4612-8882-a6f3b1490f29")
+		(pin "15"
+			(uuid "c4a7e938-8b1a-41b2-9ad5-f459ed07b45c")
 		)
-		(pin "7"
-			(uuid "d1b5adb6-8136-476e-9c90-d8c98cf0e7c1")
+		(pin "54"
+			(uuid "6b8b0595-1dc1-43be-bb3e-5ab23365eeea")
+		)
+		(pin "38"
+			(uuid "f8e6bb92-87c8-400c-bf49-240dcfa0662c")
+		)
+		(pin "47"
+			(uuid "6d764f24-1f93-4c8b-9454-d9edbdc771de")
+		)
+		(pin "14"
+			(uuid "2ce948c4-f476-438b-9ee5-7b4c398d976e")
+		)
+		(pin "18"
+			(uuid "c36b04a6-7697-44fc-8d9c-d8365fd05cb2")
+		)
+		(pin "34"
+			(uuid "d659ddc3-562b-4277-b503-322583aa5dea")
+		)
+		(pin "35"
+			(uuid "46aec632-d2c4-4ad6-8b16-593f6436b638")
+		)
+		(pin "31"
+			(uuid "34608fe3-bbfa-40de-837c-f09eac6d3eb4")
+		)
+		(pin "22"
+			(uuid "2438bfac-d378-4baa-96a0-e48849841c45")
+		)
+		(pin "23"
+			(uuid "d3ace4f0-aa41-4e6d-b09f-7fba36fbe506")
+		)
+		(pin "39"
+			(uuid "729a93cb-a8ef-4bfa-9e9d-48a7159c7636")
+		)
+		(pin "19"
+			(uuid "44f78e66-2df2-4153-a17e-939e01148f3f")
+		)
+		(pin "30"
+			(uuid "caf2548c-6172-4a9e-bfdb-b2cbbe0c3fa5")
+		)
+		(pin "4"
+			(uuid "7e30324e-0b7d-42e0-b85d-ab5db1dbfb21")
+		)
+		(pin "51"
+			(uuid "0ec30945-20cb-4958-bca0-7f4107a05e89")
+		)
+		(pin "55"
+			(uuid "5508b12e-ad8b-4ffe-9e12-548bbbb166d4")
 		)
 		(pin "57"
-			(uuid "212234f2-41d8-497a-8172-15529adfdf2c")
+			(uuid "c8900b09-b81b-410d-94dd-58926a4c3f2f")
 		)
-		(pin "58"
-			(uuid "f8502691-bae4-4c95-a60b-2e77528318e5")
+		(pin "7"
+			(uuid "ba83ff22-61b0-4702-88af-bdb0e0a20a8d")
 		)
-		(pin "67"
-			(uuid "06fd4941-41e8-4f14-b614-aa2ae07434ff")
+		(pin "75"
+			(uuid "c8b9be86-354b-4343-9858-eb9ddfdfeb5d")
+		)
+		(pin "72"
+			(uuid "147c6352-21e2-4801-94fb-4299752f376b")
+		)
+		(pin "74"
+			(uuid "8284e363-c65f-4e1b-ae82-09bbd08a6c60")
+		)
+		(pin "70"
+			(uuid "ddf9df6b-ddde-420d-9c50-5b8d0576c948")
+		)
+		(pin "68"
+			(uuid "a15687a6-e5d0-4b66-bd78-ba27bf2e3e75")
+		)
+		(pin "56"
+			(uuid "cde05428-7850-4452-91cf-bf85376a89ac")
 		)
 		(pin "69"
-			(uuid "fed8c943-cc3d-466b-a1c6-9580c8fa25dd")
-		)
-		(pin "2"
-			(uuid "b19d38d9-44a6-4f51-a735-2a7018fe837e")
-		)
-		(pin "71"
-			(uuid "59ef62b1-4ce3-4cf4-877a-4073cda86bda")
+			(uuid "8e70e6e2-1fd6-4736-b893-6ee76b895e44")
 		)
 		(pin "1"
-			(uuid "cbe92442-4896-4489-806c-695e4e20863f")
+			(uuid "81c836cf-ed99-47b3-92ff-c79021f29993")
+		)
+		(pin "2"
+			(uuid "148e8389-7be1-4c4f-a7ec-d91fdbb225bc")
+		)
+		(pin "58"
+			(uuid "e8674868-798f-4257-a40d-4d02dfff4df6")
+		)
+		(pin "3"
+			(uuid "a5ba3304-e385-43dc-bfe9-37bb40e5c06e")
+		)
+		(pin "67"
+			(uuid "acfa25ae-1f05-484d-82d1-b12a3e790694")
+		)
+		(pin "71"
+			(uuid "4cf6e7ec-0243-4fbe-b175-492c25e22924")
 		)
 		(instances
 			(project ""
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
 					(reference "MCU201")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -42705,7 +42200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fecc400b-dab1-4744-9f3c-b72fd7b5003b")
-		(property "Reference" "TP205"
+		(property "Reference" "TP201"
 			(at 199.39 97.0497 0)
 			(effects
 				(font
@@ -42714,7 +42209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CANH"
+		(property "Value" "SMD Test Point"
 			(at 199.39 99.5897 0)
 			(effects
 				(font
@@ -42837,7 +42332,7 @@
 		(instances
 			(project "SMU V1"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/c495073d-8f0f-4c8c-b73c-60f0e4a1d97a"
-					(reference "TP205")
+					(reference "TP201")
 					(unit 1)
 				)
 			)

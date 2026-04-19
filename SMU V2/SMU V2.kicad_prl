@@ -45,12 +45,11 @@
       "pads",
       "zones",
       "drc_warnings",
-      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffdf",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SMU V1.kicad_prl",
+    "filename": "SMU V2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +91,18 @@
       11
     ],
     "col_widths": [
-      222,
-      207,
-      137,
-      92,
-      137,
-      137,
-      137,
-      98,
-      137,
-      137,
-      137,
-      137
+      258,
+      243,
+      150,
+      106,
+      150,
+      150,
+      150,
+      112,
+      150,
+      150,
+      150,
+      150
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

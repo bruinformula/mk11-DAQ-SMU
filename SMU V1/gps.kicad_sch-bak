@@ -3076,7 +3076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "LC29HEAMD"
+		(property "Manufacturer P/N" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3085,7 +3085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Quectel Inc."
+		(property "Manufacturer" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3094,7 +3094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "2958-LC29HEAMDCT-ND"
+		(property "Digikey P/N" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "277--LC29HEAMD"
+		(property "Mouser P/N" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3112,7 +3112,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C28453488"
+		(property "LCSC P/N" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic?" "No"
+		(property "JLC Basic?" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "No"
+		(property "JLC Basic Part" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" "JLC"
+		(property "Order From" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -3175,7 +3175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Created By" "Tony"
+		(property "Created By" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "LC29HEAMD"
+		(property "Manufacturer P/N" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Quectel Inc."
+		(property "Manufacturer" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "2958-LC29HEAMDCT-ND"
+		(property "Digikey P/N" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "277--LC29HEAMD"
+		(property "Mouser P/N" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4193,7 +4193,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C28453488"
+		(property "LCSC P/N" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4202,7 +4202,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic?" "No"
+		(property "JLC Basic?" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4238,7 +4238,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Basic Part" "No"
+		(property "JLC Basic Part" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order From" "JLC"
+		(property "Order From" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Created By" "Tony"
+		(property "Created By" ""
 			(at 110.49 132.08 0)
 			(effects
 				(font
