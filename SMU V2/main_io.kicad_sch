@@ -608,7 +608,7 @@
 		(uuid "194caf22-f024-4807-bcdc-01f0bc10b70a")
 	)
 	(junction
-		(at 175.26 100.33)
+		(at 171.45 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38abe091-2c8f-4078-b732-1fe0185fce12")
@@ -632,25 +632,25 @@
 		(uuid "668a5a2d-f977-4fc8-b728-f4baccb6b71a")
 	)
 	(junction
-		(at 162.56 92.71)
+		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf8462b3-4dec-42f3-8d59-376603409d1c")
 	)
 	(junction
-		(at 175.26 92.71)
+		(at 171.45 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2196f43-dee1-4ec9-884d-4061fd65dd8b")
 	)
 	(junction
-		(at 162.56 100.33)
+		(at 158.75 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0fdbcf1-58e2-490a-97f0-78a4a587887c")
 	)
 	(bus_entry
-		(at 171.45 114.3)
+		(at 167.64 111.76)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -677,7 +677,7 @@
 		(uuid "dca5ad49-d70c-4b3e-90e0-c48e83adea2f")
 	)
 	(bus_entry
-		(at 171.45 109.22)
+		(at 167.64 106.68)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -687,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 88.9) (xy 181.61 92.71)
+			(xy 177.8 86.36) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 162.56 92.71)
+			(xy 153.67 90.17) (xy 158.75 90.17)
 		)
 		(stroke
 			(width 0)
@@ -717,7 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 162.56 100.33)
+			(xy 153.67 97.79) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -727,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 171.45 115.57)
+			(xy 153.67 113.03) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -737,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 100.33) (xy 181.61 104.14)
+			(xy 177.8 97.79) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -747,7 +747,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 100.33) (xy 181.61 100.33)
+			(xy 171.45 97.79) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 109.22) (xy 171.45 107.95)
+			(xy 167.64 106.68) (xy 167.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -807,7 +807,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 175.26 100.33)
+			(xy 158.75 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 107.95) (xy 171.45 107.95)
+			(xy 153.67 105.41) (xy 167.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 171.45 115.57)
+			(xy 167.64 111.76) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +837,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 111.76) (xy 204.47 111.76)
+			(xy 170.18 109.22) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 175.26 92.71)
+			(xy 158.75 90.17) (xy 171.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 181.61 92.71)
+			(xy 171.45 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +946,7 @@
 		(uuid "f2a58fdc-6599-4955-a772-0c859b7886ce")
 	)
 	(label "CAN+"
-		(at 157.48 107.95 0)
+		(at 153.67 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -966,7 +966,7 @@
 		(uuid "6826cfca-eb62-4032-8dc9-2b2469e1f4b2")
 	)
 	(label "CAN-"
-		(at 157.48 115.57 0)
+		(at 153.67 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +976,7 @@
 		(uuid "b7b9c119-8859-410c-87ce-7c591f3a5829")
 	)
 	(label "{CAN+, CAN-}"
-		(at 189.23 111.76 0)
+		(at 185.42 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1007,7 +1007,7 @@
 	)
 	(hierarchical_label "VBATT+"
 		(shape input)
-		(at 181.61 88.9 0)
+		(at 177.8 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 	)
 	(hierarchical_label "CAN"
 		(shape bidirectional)
-		(at 204.47 111.76 0)
+		(at 200.66 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1051,7 +1051,7 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
-		(at 162.56 96.52 0)
+		(at 158.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1059,7 +1059,7 @@
 		(dnp no)
 		(uuid "3fbedadd-3923-4ed4-a111-4d5113dd7220")
 		(property "Reference" "C403"
-			(at 160.782 86.8679 0)
+			(at 156.972 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1068,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 161.544 89.154 0)
+			(at 157.734 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1077,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 162.56 99.06 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 100.33 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 			)
 		)
 		(property "Description" "22uF±20% X5R 25V JLCPCB Basic 0805 Capacitor"
-			(at 162.56 96.52 0)
+			(at 158.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 162.56 101.6 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1113,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 162.56 102.87 0)
+			(at 158.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL21A226MAQNNNE.lib"
-			(at 162.56 104.14 0)
+			(at 158.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Sim.Name" "CL21A226MAQNNNE"
-			(at 162.56 105.41 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Pretty Name" "22uF X5R 25V 0805 Capacitor"
-			(at 162.56 106.68 0)
+			(at 158.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 162.56 107.95 0)
+			(at 158.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1158,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 162.56 109.22 0)
+			(at 158.75 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 162.56 110.49 0)
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 162.56 111.76 0)
+			(at 158.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1185,7 @@
 			)
 		)
 		(property "Mouser P/N" "187-CL21A226MAYNNNE"
-			(at 162.56 111.76 0)
+			(at 158.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(property "LCSC P/N" "C45783"
-			(at 162.56 111.76 0)
+			(at 158.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1203,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 162.56 111.76 0)
+			(at 158.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 162.56 111.76 0)
+			(at 158.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 104.14 0)
+		(at 177.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1684,7 +1684,7 @@
 		(fields_autoplaced yes)
 		(uuid "b397c3aa-afea-4f79-b4eb-24ea39943938")
 		(property "Reference" "#PWR0402"
-			(at 181.61 110.49 0)
+			(at 177.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 109.22 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 104.14 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 104.14 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 104.14 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
-		(at 175.26 96.52 0)
+		(at 171.45 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1944,7 +1944,7 @@
 		(dnp no)
 		(uuid "f21e5fc9-1982-4a4a-b433-95afea03743a")
 		(property "Reference" "C404"
-			(at 173.482 86.868 0)
+			(at 169.672 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 173.482 89.408 0)
+			(at 169.672 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 175.26 99.06 0)
+			(at 171.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 100.33 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Description" "22uF±20% X5R 25V JLCPCB Basic 0805 Capacitor"
-			(at 175.26 96.52 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 175.26 101.6 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 175.26 102.87 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL21A226MAQNNNE.lib"
-			(at 175.26 104.14 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Sim.Name" "CL21A226MAQNNNE"
-			(at 175.26 105.41 0)
+			(at 171.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Pretty Name" "22uF X5R 25V 0805 Capacitor"
-			(at 175.26 106.68 0)
+			(at 171.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2034,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 175.26 107.95 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2043,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 175.26 109.22 0)
+			(at 171.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 175.26 110.49 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2061,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 175.26 111.76 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(property "Mouser P/N" "187-CL21A226MAYNNNE"
-			(at 175.26 111.76 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 			)
 		)
 		(property "LCSC P/N" "C45783"
-			(at 175.26 111.76 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 175.26 111.76 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2097,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 175.26 111.76 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2122,7 @@
 	)
 	(symbol
 		(lib_id "bfr_connectors:DAQ_Connector")
-		(at 149.86 104.14 0)
+		(at 146.05 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2131,7 +2131,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd114c73-c0ea-49c5-a0bf-6155c78ad5e5")
 		(property "Reference" "J402"
-			(at 149.86 86.36 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 149.86 88.9 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2147,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Description" "DAQ Connector Microfit"
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "0436500401"
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Digikey P/N" "WM1867-ND"
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Mouser P/N" "538-43650-0401 "
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2210,7 @@
 			)
 		)
 		(property "JLC Basic?" "No"
-			(at 147.32 82.55 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2219,7 @@
 			)
 		)
 		(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
-			(at 151.13 82.55 0)
+			(at 147.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2228,7 @@
 			)
 		)
 		(property "LCSC P/N" ""
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Alternate 2" ""
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(property "Alternate 3" ""
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "Order From" "Digikey"
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "JLC Basic Part" ""
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2273,7 @@
 			)
 		)
 		(property "Created By" "Tony"
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "Pretty Name" ""
-			(at 149.86 104.14 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

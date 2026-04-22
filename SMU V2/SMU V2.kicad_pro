@@ -521,6 +521,10 @@
       {
         "netclass": "RF",
         "pattern": "*_RF_R"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*_ANTENNA_RF"
       }
     ]
   },
@@ -821,12 +825,12 @@
       "IMU"
     ],
     [
-      "c7b85e6a-934c-4502-8291-9b96133d9fe3",
-      "GPS LDO1"
+      "b244adf5-446c-45ea-af5d-14ac2e7aab9d",
+      "GPS LDO"
     ],
     [
-      "209e2896-f8b9-4d4b-88ca-b4b8f94ef018",
-      "GPS LDO"
+      "39975dfb-3d32-4c42-b4f5-844dea62c3f9",
+      "GPS LDO1"
     ],
     [
       "b3165549-ffd4-4aee-a330-81bb01c2c5f2",
@@ -838,11 +842,23 @@
     ],
     [
       "9f4b7fd8-1b41-49c1-882f-9b0abe430a88",
-      "Antenna"
+      "Antenna1"
     ],
     [
       "ffadd9c2-fe2d-4025-92ac-e8757544fe06",
       "VBATT Protection"
+    ],
+    [
+      "8b50222f-294b-480b-a2b8-7223fbb1c8b6",
+      "Antenna2"
+    ],
+    [
+      "84ff598b-a57f-4861-899e-6ab2dc4b5942",
+      "Display"
+    ],
+    [
+      "67c4b0d8-8e8e-4b9b-9042-25a9a9dd24e3",
+      "LDO"
     ]
   ],
   "text_variables": {}

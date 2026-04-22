@@ -1967,7 +1967,7 @@
 		(uuid "dec8cdb5-03eb-43ae-a4e9-47d44785d9f7")
 	)
 	(hierarchical_label "GPS1_ANTENNA_RF"
-		(shape output)
+		(shape bidirectional)
 		(at 110.49 85.09 180)
 		(effects
 			(font
