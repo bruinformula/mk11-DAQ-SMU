@@ -1308,7 +1308,7 @@
 		(uuid "9b75b662-3843-4b0e-8290-10738944776a")
 	)
 	(label "GPS1{UART_RX, UART_TX, WKUP, PPS, RST}"
-		(at 149.86 62.23 0)
+		(at 146.05 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3685,6 +3685,7 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 72 0 0 1)
 		)
 		(fill
 			(color 255 255 194 1)
