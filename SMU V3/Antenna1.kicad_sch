@@ -2248,7 +2248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0557ad4b-fdae-4620-b059-ab575d47a800")
-		(property "Reference" "L1"
+		(property "Reference" "L1101"
 			(at 203.2 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,7 +2499,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "L1")
+					(reference "L1101")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e79d56-c6bb-4591-b01c-1cf659ae664f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR01104"
 			(at 181.61 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "#PWR030")
+					(reference "#PWR01104")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2595,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3333f103-4df4-4cf9-9346-3d6ac2c68797")
-		(property "Reference" "C36"
+		(property "Reference" "C1105"
 			(at 185.42 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2802,7 +2802,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "C36")
+					(reference "C1105")
 					(unit 1)
 				)
 			)
@@ -2820,7 +2820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34f5a964-b142-45cd-92b9-13ebab993dce")
-		(property "Reference" "R7"
+		(property "Reference" "R1101"
 			(at 137.16 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3025,7 +3025,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "R7")
+					(reference "R1101")
 					(unit 1)
 				)
 			)
@@ -3043,7 +3043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e16783-b6e8-40a2-806c-89910669fbc2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01102"
 			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3103,7 +3103,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "#PWR029")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3121,7 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44948cc3-68e4-41e8-8d92-0a045df79cfa")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01101"
 			(at 152.4 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3181,7 +3181,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "#PWR027")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3199,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b085158-4a53-4080-8640-316fc1815caf")
-		(property "Reference" "C35"
+		(property "Reference" "C1104"
 			(at 156.21 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "C35")
+					(reference "C1104")
 					(unit 1)
 				)
 			)
@@ -3424,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fcf4617-7dd8-4469-bdd8-f70cd97848eb")
-		(property "Reference" "C32"
+		(property "Reference" "C1101"
 			(at 156.21 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +3642,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "C32")
+					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90974a2d-6317-48de-b4cd-2c7938fbee37")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR01103"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3720,7 +3720,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "#PWR028")
+					(reference "#PWR01103")
 					(unit 1)
 				)
 			)
@@ -3738,7 +3738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91db85a8-8c6d-4a09-bd21-fc7f252d537d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR01105"
 			(at 265.43 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3798,7 +3798,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "#PWR031")
+					(reference "#PWR01105")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d135e78-9999-4fa6-a2ac-c7b732eb2b86")
-		(property "Reference" "J3"
+		(property "Reference" "J1101"
 			(at 267.97 59.9831 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,7 +3979,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "J3")
+					(reference "J1101")
 					(unit 1)
 				)
 			)
@@ -3997,7 +3997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eeda7ab-99a0-408d-86c4-ef7decdf061c")
-		(property "Reference" "C34"
+		(property "Reference" "C1103"
 			(at 200.66 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4202,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "C34")
+					(reference "C1103")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca1b1ce-a735-46c7-8ad1-609f931f5f51")
-		(property "Reference" "C33"
+		(property "Reference" "C1102"
 			(at 185.42 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4427,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "C33")
+					(reference "C1102")
 					(unit 1)
 				)
 			)
@@ -4445,7 +4445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc18cbea-aa56-40eb-8102-7cf20fcf12ca")
-		(property "Reference" "R8"
+		(property "Reference" "R1102"
 			(at 168.91 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4650,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/9f4b7fd8-1b41-49c1-882f-9b0abe430a88"
-					(reference "R8")
+					(reference "R1102")
 					(unit 1)
 				)
 			)

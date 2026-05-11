@@ -359,12 +359,6 @@
 		)
 		(uuid "f1b0c2a1-9e42-423f-b177-e1caf20788a1")
 	)
-	(junction
-		(at 190.5 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2244832e-ea59-4e3e-8eaf-778b637aa39e")
-	)
 	(wire
 		(pts
 			(xy 54.61 81.28) (xy 76.2 81.28)
@@ -397,53 +391,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 190.5 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c35fc98-eb5a-4d5e-9e76-d8734792d779")
-	)
-	(wire
-		(pts
-			(xy 177.8 81.28) (xy 190.5 81.28)
+			(xy 177.8 81.28) (xy 215.9 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "791a691b-b9d0-4395-87e1-fe8905927eb4")
-	)
-	(wire
-		(pts
-			(xy 190.5 105.41) (xy 196.85 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86ab1329-1068-4310-a0ed-8d677d8b95ba")
-	)
-	(wire
-		(pts
-			(xy 231.14 105.41) (xy 245.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96407eca-249c-45b7-b4dc-a94542cba7f4")
-	)
-	(wire
-		(pts
-			(xy 190.5 81.28) (xy 215.9 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9779c1-ffb5-4e27-9054-3d108921831a")
 	)
 	(hierarchical_label "PP5000_BUCK_VOUT"
 		(shape input)
@@ -467,17 +421,6 @@
 		)
 		(uuid "4bbcb2e8-21c9-475a-bef5-ef136af692c0")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 245.11 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e2d13d1-0bca-423d-9e6c-f18d5571f319")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 73.66 127 0)
@@ -490,7 +433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74638a15-fc3c-42bc-ad39-c0c7b9025a28")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0301"
 			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -550,7 +493,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
-					(reference "#PWR06")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -567,7 +510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9cedf7e-7013-4446-985a-f88b7db87b5d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP301"
 			(at 69.088 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -727,74 +670,8 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
-					(reference "TP1")
+					(reference "TP301")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 196.85 97.79)
-		(size 34.29 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1)
-		)
-		(uuid "67c4b0d8-8e8e-4b9b-9042-25a9a9dd24e3")
-		(property "Sheetname" "LDO"
-			(at 196.85 97.0784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 196.85 112.3446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 196.85 105.41 180)
-			(uuid "edce1b34-45cb-4982-8dc8-e0692b776837")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" input
-			(at 231.14 105.41 0)
-			(uuid "77063b0e-79e2-44a4-bda2-c37697ee91f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SMU V3"
-				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/b9f10619-4e5b-45af-b866-c6815d605ed5"
-					(page "14")
 				)
 			)
 		)

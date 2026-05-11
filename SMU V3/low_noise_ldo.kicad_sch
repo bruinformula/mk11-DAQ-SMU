@@ -1325,6 +1325,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 86.36) (xy 194.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cf1e3d-8c5b-4b37-abce-69f7bca34ed3")
+	)
+	(wire
+		(pts
 			(xy 171.45 99.06) (xy 171.45 104.14)
 		)
 		(stroke
@@ -1342,16 +1352,6 @@
 			(type default)
 		)
 		(uuid "4cc8d240-10a2-43c4-83ba-ab0a3b92c371")
-	)
-	(wire
-		(pts
-			(xy 171.45 86.36) (xy 194.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553f7c51-afe3-4421-b1c0-24dd7ceea69d")
 	)
 	(wire
 		(pts
@@ -1537,7 +1537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa4d11c-5dcf-4e56-887e-770512767e20")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0701"
 			(at 196.85 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1597,15 +1597,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "#PWR022")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "#PWR020")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "#PWR024")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -1622,7 +1622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89ec0012-2cd3-467a-92f4-94f59cbb3343")
-		(property "Reference" "D1"
+		(property "Reference" "D701"
 			(at 200.3425 99.695 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1761,15 +1761,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "D2")
+					(reference "D801")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "D1")
+					(reference "D701")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "D3")
+					(reference "D901")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d25489-2f9b-468d-a7f5-0c0172d382a6")
-		(property "Reference" "C18"
+		(property "Reference" "C702"
 			(at 175.26 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,15 +1994,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "C20")
+					(reference "C802")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "C18")
+					(reference "C702")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "C22")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ff3bf67-1adb-4d58-8754-aacf5a082594")
-		(property "Reference" "R1"
+		(property "Reference" "R701"
 			(at 199.39 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,15 +2224,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "R2")
+					(reference "R801")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "R1")
+					(reference "R701")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "R3")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -2250,7 +2250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd73331-9e49-4c13-8b5f-3a0258fd9f4b")
-		(property "Reference" "U2"
+		(property "Reference" "U701"
 			(at 148.59 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,15 +2409,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "U3")
+					(reference "U801")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "U2")
+					(reference "U701")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "U4")
+					(reference "U901")
 					(unit 1)
 				)
 			)
@@ -2435,7 +2435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2e037be-222d-47df-aa09-65a1008d45a5")
-		(property "Reference" "C17"
+		(property "Reference" "C701"
 			(at 110.49 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,15 +2642,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "C19")
+					(reference "C801")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "C17")
+					(reference "C701")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "C21")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc1611c1-4fad-4fea-a4e6-51a3e71359de")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0702"
 			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2728,15 +2728,15 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/39975dfb-3d32-4c42-b4f5-844dea62c3f9"
-					(reference "#PWR021")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121/b244adf5-446c-45ea-af5d-14ac2e7aab9d"
-					(reference "#PWR019")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/4cd2b3ee-b9d4-4006-b5a4-98c8a3d3240f/b3165549-ffd4-4aee-a330-81bb01c2c5f2"
-					(reference "#PWR023")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)

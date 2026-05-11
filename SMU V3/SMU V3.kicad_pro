@@ -569,7 +569,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -845,7 +845,7 @@
         "uuid": "1f58b889-96e6-4877-90a3-5a655db5910b"
       }
     ],
-    "used_designators": "L1-2,#PWR1-4,GPS1-2,D1-6,C1-45,F1,J1-4,MCU1,Q1,R1-12,TP1,TVS1,U1-7",
+    "used_designators": "F1201,TP2-6,TP201,TP301,TP501-504,TP601-607,#PWR17-18,#PWR39,#PWR101-109,#PWR201-204,#PWR301,#PWR401-402,#PWR501-508,#PWR601-602,#PWR701-703,#PWR801-803,#PWR901-903,#PWR1001-1002,#PWR1101-1105,#PWR1201-1207,#PWR1302,GPS501-502,D3,D101,D201-204,D701,D801,D901,D1001,D1201,C15-16,C21-22,C201-204,C401-404,C501-506,C601-602,C701-702,C801-802,C901-902,C1001-1009,C1101-1105,C1201-1205,R3,R101,R201-204,R701,R801,R901,R1001-1003,R1101-1102,R1201-1203,R1301-1302,U1,U4,U601,U701,U801,U901,U1001-1002,U1301,H101-104,J401-402,J1101,J1201,L1101,L1201,MCU201,Q1201,TVS1201",
     "variants": []
   },
   "sheets": [
@@ -900,10 +900,6 @@
     [
       "8b50222f-294b-480b-a2b8-7223fbb1c8b6",
       "Antenna2"
-    ],
-    [
-      "67c4b0d8-8e8e-4b9b-9042-25a9a9dd24e3",
-      "LDO"
     ]
   ],
   "text_variables": {},

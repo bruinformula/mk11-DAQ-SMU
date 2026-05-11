@@ -1405,6 +1405,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bfr_utilities:SMD_Test_Point"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD Test Point"
+				(at 0.508 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+				(at 0.762 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+				(at 0.762 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD Test Point"
+				(at 0.762 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer P/N" "RH-5019"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ronghe"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey P/N" "36-5019CT-ND"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser P/N" "534-5019"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC P/N" "C5199800"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Basic Part" "No"
+				(at 0 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Created By" "Manual Entry"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pretty Name" "SMD Test Point"
+				(at 0.762 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMD_Test_Point_0_1"
+				(circle
+					(center 0 0.762)
+					(radius 0.7184)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD_Test_Point_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1606,6 +1800,18 @@
 		(uuid "87d31353-a761-4db7-89c7-8004068438df")
 	)
 	(junction
+		(at 69.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885bb76b-c942-422a-8421-5518121216b4")
+	)
+	(junction
+		(at 71.12 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "891a11d4-60d3-49c5-b8be-c21ac9c20033")
+	)
+	(junction
 		(at 135.89 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1628,6 +1834,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aac13d0c-0542-4816-9b92-92be12668d19")
+	)
+	(junction
+		(at 67.31 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9c94b08-d23f-48c3-83ec-722473f6e992")
+	)
+	(junction
+		(at 66.04 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f8783f-379f-4fb4-b80a-f0ca92531679")
 	)
 	(junction
 		(at 189.23 137.16)
@@ -1816,7 +2034,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 29.21) (xy 60.96 29.21)
+			(xy 24.13 29.21) (xy 60.96 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1856,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 93.98 31.75)
+			(xy 63.5 31.75) (xy 67.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 116.84) (xy 93.98 116.84)
+			(xy 59.69 116.84) (xy 66.04 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2186,13 +2404,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 35.56) (xy 93.98 35.56)
+			(xy 63.5 35.56) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90811490-9c65-4acc-be5b-b2260c0ec658")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af3d0a1-d1fa-490d-8a98-2ff8083a5d00")
 	)
 	(wire
 		(pts
@@ -2286,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 120.65) (xy 93.98 120.65)
+			(xy 54.61 120.65) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2303,6 +2531,16 @@
 			(type default)
 		)
 		(uuid "bb0c6e4c-44a6-4f2c-8372-6fbd23b023c4")
+	)
+	(wire
+		(pts
+			(xy 67.31 31.75) (xy 93.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcad5974-e90d-424c-aac2-04fda3935dbe")
 	)
 	(wire
 		(pts
@@ -2373,6 +2611,26 @@
 			(type default)
 		)
 		(uuid "ce28e28f-d7b1-4759-9c12-11346844cce6")
+	)
+	(wire
+		(pts
+			(xy 66.04 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee8ff7b-38a4-4917-a947-8663c4310ed6")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00acf8d-aff2-488f-86cd-7ae297736081")
 	)
 	(wire
 		(pts
@@ -2685,7 +2943,7 @@
 		(uuid "c8b4835b-4796-46b0-a513-0e5a03ba107c")
 	)
 	(label "GPS1{UART_RX, UART_TX, WKUP, PPS, RST}"
-		(at 50.8 29.21 0)
+		(at 24.13 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2696,7 +2954,7 @@
 	)
 	(hierarchical_label "GPS1"
 		(shape bidirectional)
-		(at 50.8 29.21 180)
+		(at 24.13 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +3052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04519a09-24df-4465-862b-d94ce29852ac")
-		(property "Reference" "GPS1"
+		(property "Reference" "GPS501"
 			(at 113.03 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2922,7 +3180,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "GPS1")
+					(reference "GPS501")
 					(unit 2)
 				)
 			)
@@ -2941,7 +3199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a6ae18-43fc-4515-8030-fe922256c35f")
-		(property "Reference" "C14"
+		(property "Reference" "C506"
 			(at 185.42 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3406,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C14")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -3167,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19c602cd-09fb-49ff-9fc9-86617b0a6a9a")
-		(property "Reference" "C9"
+		(property "Reference" "C501"
 			(at 157.48 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3374,7 +3632,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C9")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -3393,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be927ae-0b59-4e41-b064-5ae0d61224a9")
-		(property "Reference" "C11"
+		(property "Reference" "C503"
 			(at 185.42 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +3858,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C11")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c73b922-e8fb-4a6f-8ce0-178db35ae6cc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0504"
 			(at 87.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3678,7 +3936,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR012")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d3f607a-da99-4847-ac4b-5d6746707174")
-		(property "Reference" "GPS1"
+		(property "Reference" "GPS501"
 			(at 113.03 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +4082,361 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "GPS1")
+					(reference "GPS501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49254122-d915-47d6-a77b-408949205b52")
+		(property "Reference" "TP503"
+			(at 65.024 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS2_UART_RX"
+			(at 65.024 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 66.802 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 66.802 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 66.802 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 66.04 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 66.802 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eccfcde3-9d6e-494a-86dd-ecbf0aa2b8ea")
+		)
+		(instances
+			(project "SMU V3"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
+					(reference "TP503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 67.31 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f62ad2f-592f-4b29-ad24-dd924f49e931")
+		(property "Reference" "TP501"
+			(at 66.294 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS1_UART_RX"
+			(at 66.294 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 68.072 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 68.072 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 68.072 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 67.31 43.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 68.072 48.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed39c71a-9754-47d0-8e6e-a9cfbb3700ce")
+		)
+		(instances
+			(project "SMU V3"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -3842,7 +4454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65be0817-3246-42de-81f1-9fc918beb374")
-		(property "Reference" "GPS2"
+		(property "Reference" "GPS502"
 			(at 111.76 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,7 +4582,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "GPS2")
+					(reference "GPS502")
 					(unit 2)
 				)
 			)
@@ -3988,7 +4600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec12bd6-9469-4108-88a1-5997c47834f5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0501"
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4048,7 +4660,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR09")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fbded27-7dfc-476b-baa5-24e77f6f5a16")
-		(property "Reference" "GPS2"
+		(property "Reference" "GPS502"
 			(at 113.03 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,7 +4806,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "GPS2")
+					(reference "GPS502")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7a0d73-7643-4604-a3ff-8d7d5ef8adcb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0506"
 			(at 205.74 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4272,7 +4884,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR014")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5c330c-f2b8-4b26-a40a-6447ca5b2899")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0508"
 			(at 86.36 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -4350,7 +4962,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR016")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f5daf6-55b7-488e-8ac2-7d2d61f1b146")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0503"
 			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4428,7 +5040,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR011")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -4446,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89412e4d-256b-4f3e-855e-380aee3a8a7d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0505"
 			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4506,7 +5118,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR013")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -4525,7 +5137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ffb70b9-c3a1-476b-a06b-b475e2be525a")
-		(property "Reference" "C12"
+		(property "Reference" "C504"
 			(at 157.48 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +5344,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C12")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -4751,7 +5363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92caa789-b7eb-4b06-82ec-bad07e481767")
-		(property "Reference" "C10"
+		(property "Reference" "C502"
 			(at 171.45 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +5570,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C10")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -4976,7 +5588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcf9fc01-07e5-4ec9-93e4-1fee233354ac")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0502"
 			(at 205.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5648,7 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR010")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -5054,7 +5666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c173b5cc-4c46-42cc-a461-d5874963469b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0507"
 			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5726,184 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "#PWR015")
+					(reference "#PWR0507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 69.85 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f118fb6a-1e11-441f-9ce6-8a8ee07c3fb8")
+		(property "Reference" "TP504"
+			(at 66.294 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS2_UART_TX"
+			(at 66.294 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 70.612 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 70.612 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 70.612 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 69.85 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 70.612 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd7facfe-aec4-4d66-9407-ae55b3947bad")
+		)
+		(instances
+			(project "SMU V3"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
+					(reference "TP504")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16cceef-3476-4c12-81c7-e257fd47281b")
-		(property "Reference" "C13"
+		(property "Reference" "C505"
 			(at 171.45 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +6129,184 @@
 		(instances
 			(project "SMU V3"
 				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
-					(reference "C13")
+					(reference "C505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_utilities:SMD_Test_Point")
+		(at 71.12 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd216e8-e990-41c8-87e6-42c83a45bf90")
+		(property "Reference" "TP502"
+			(at 67.564 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPS1_UART_TX"
+			(at 67.564 39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_utilities:TestPoint_Keystone_5019_Miniature"
+			(at 71.882 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302201500_ronghe-RH-5019_C5199800.pdf"
+			(at 71.882 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Test Point"
+			(at 71.882 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "RH-5019"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey P/N" "36-5019CT-ND"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "534-5019"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5199800"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 71.12 47.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pretty Name" "SMD Test Point"
+			(at 71.882 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cab0b1ba-d79c-4f2b-824b-cfb616cd1ce8")
+		)
+		(instances
+			(project "SMU V3"
+				(path "/1f58b889-96e6-4877-90a3-5a655db5910b/29d8e893-ab28-4f0b-b4ae-2fd3312ba121"
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -5482,7 +6448,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPS_PGOOD" input
+		(pin "GPS1_PGOOD" input
 			(at 248.92 38.1 0)
 			(uuid "331d8619-a61d-48a0-a5a8-086ca1298a2f")
 			(effects
